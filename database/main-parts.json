@@ -2,200 +2,200 @@
     "consumables": [
       {
         "name": "Engine oil",
-        "category": "Engine",
-        "typical_interval": "5-10k km or 1 year",
+        "assembly_name": "Engine",
+        "typical_interval_in_km": 10000,
         "notes": "Interval depends on oil spec and driving conditions",
-        "sources": ["web:12", "web:6"]
+        "affected_assemblies": ["Engine", "Lubrication system"]
       },
       {
         "name": "Oil filter",
-        "category": "Engine",
-        "typical_interval": "With every oil change",
+        "assembly_name": "Engine",
+        "typical_interval_in_km": 10000,
         "notes": "Replace together with oil",
-        "sources": ["web:12", "web:6"]
+        "affected_assemblies": ["Engine", "Lubrication system"]
       },
       {
         "name": "Engine air filter",
-        "category": "Engine",
-        "typical_interval": "15-20k km",
+        "assembly_name": "Engine",
+        "typical_interval_in_km": 20000,
         "notes": "Sooner in dusty conditions",
-        "sources": ["web:9", "web:6"]
+        "affected_assemblies": ["Engine", "Intake system"]
       },
       {
         "name": "Cabin air filter",
-        "category": "HVAC",
-        "typical_interval": "10-20k km or 1 year",
+        "assembly_name": "HVAC",
+        "typical_interval_in_km": 15000,
         "notes": "Maintains HVAC efficiency and air quality",
-        "sources": ["web:2", "web:6"]
+        "affected_assemblies": ["HVAC", "Cabin ventilation"]
       },
       {
         "name": "Brake fluid",
-        "category": "Brakes",
-        "typical_interval": "Every 2 years",
+        "assembly_name": "Brakes",
+        "typical_interval_in_km": 40000,
         "notes": "Hygroscopic; prevents corrosion and boiling",
-        "sources": ["web:6", "web:20"]
+        "affected_assemblies": ["Brakes", "Master cylinder", "Calipers", "ABS/ESC"]
       },
       {
         "name": "Coolant/Antifreeze",
-        "category": "Cooling",
-        "typical_interval": "About every 2 years (per OEM)",
+        "assembly_name": "Cooling",
+        "typical_interval_in_km": 50000,
         "notes": "Follow OEM spec and service interval",
-        "sources": ["web:6", "web:20"]
+        "affected_assemblies": ["Cooling system", "Radiator", "Thermostat", "Water pump", "Engine"]
       },
       {
         "name": "Wiper blades",
-        "category": "Visibility",
-        "typical_interval": "6-12 months",
-        "notes": "UV and ozone degrade rubber",
-        "sources": ["web:12", "web:5"]
+        "assembly_name": "Visibility",
+        "typical_interval_in_km": 10000,
+        "notes": "UV and ozone degrade rubber; time-based also applies",
+        "affected_assemblies": ["Wiper system", "Visibility"]
       },
       {
         "name": "Exterior bulbs (head/stop/marker)",
-        "category": "Electrical",
-        "typical_interval": "As needed",
+        "assembly_name": "Electrical",
+        "typical_interval_in_km": null,
         "notes": "Replace on failure; safety-critical",
-        "sources": ["web:5", "web:14"]
+        "affected_assemblies": ["Lighting", "Electrical"]
       },
       {
         "name": "Spark plugs",
-        "category": "Ignition",
-        "typical_interval": "30-100k km (type-dependent)",
-        "notes": "Iridium/plat. last longer than copper",
-        "sources": ["web:3", "web:6"]
+        "assembly_name": "Ignition",
+        "typical_interval_in_km": 60000,
+        "notes": "Iridium/platinum last longer than copper",
+        "affected_assemblies": ["Ignition", "Engine", "ECU"]
       },
       {
         "name": "Fuel filter",
-        "category": "Fuel",
-        "typical_interval": "Per OEM (often at major services)",
+        "assembly_name": "Fuel system",
+        "typical_interval_in_km": 40000,
         "notes": "Some are in-tank and long-life",
-        "sources": ["web:6", "web:20"]
+        "affected_assemblies": ["Fuel system", "Low/High-pressure pump", "Injectors"]
       }
     ],
     "wear_items": [
       {
         "name": "Brake pads",
-        "category": "Brakes",
-        "typical_interval": "30-50k km (driving-dependent)",
+        "assembly_name": "Brakes",
+        "typical_interval_in_km": 40000,
         "notes": "City driving and heavy loads shorten life",
-        "sources": ["web:5", "web:9"]
+        "affected_assemblies": ["Brakes", "Calipers", "Rotors"]
       },
       {
         "name": "Brake rotors/discs",
-        "category": "Brakes",
-        "typical_interval": "With 1-2 pad sets or by min thickness",
-        "notes": "Replace/turn if warped or below spec",
-        "sources": ["web:9", "web:19"]
+        "assembly_name": "Brakes",
+        "typical_interval_in_km": 80000,
+        "notes": "Or by minimum thickness/warp",
+        "affected_assemblies": ["Brakes", "Hubs", "Calipers"]
       },
       {
         "name": "Tires",
-        "category": "Tires",
-        "typical_interval": "40-60k km or 4-5 years",
+        "assembly_name": "Tires/Wheels",
+        "typical_interval_in_km": 50000,
         "notes": "Rotate every 6-8k km; maintain pressure",
-        "sources": ["web:9", "web:5"]
+        "affected_assemblies": ["Tires/Wheels", "Suspension", "Wheel alignment"]
       },
       {
         "name": "12V battery",
-        "category": "Electrical",
-        "typical_interval": "2-3 years average",
-        "notes": "Climate and short trips reduce lifespan",
-        "sources": ["web:5", "web:4"]
+        "assembly_name": "Electrical",
+        "typical_interval_in_km": 60000,
+        "notes": "Approximation for 2–3 years under mixed use",
+        "affected_assemblies": ["Battery", "Starter", "Alternator", "Electrical network"]
       },
       {
         "name": "Accessory/serpentine belts",
-        "category": "Engine drive",
-        "typical_interval": "Inspect each service; replace by cracks/noise",
-        "notes": "Tensioner/idlers may wear too",
-        "sources": ["web:2", "web:6"]
+        "assembly_name": "Accessory drive",
+        "typical_interval_in_km": 60000,
+        "notes": "Inspect each service; replace by cracks/noise",
+        "affected_assemblies": ["Alternator", "Water pump (if belt-driven)", "Power steering pump", "A/C compressor"]
       },
       {
         "name": "Suspension bushings and links",
-        "category": "Suspension",
-        "typical_interval": "By wear/noise",
-        "notes": "Includes sway bar links and control arm bushings",
-        "sources": ["web:6", "web:10"]
+        "assembly_name": "Suspension",
+        "typical_interval_in_km": 70000,
+        "notes": "Replace by wear/noise; rough roads shorten life",
+        "affected_assemblies": ["Suspension", "Stabilizer bar", "Control arms"]
       },
       {
         "name": "Shock absorbers/struts",
-        "category": "Suspension",
-        "typical_interval": "By leakage or handling decline",
-        "notes": "Check at major services",
-        "sources": ["web:6", "web:10"]
+        "assembly_name": "Suspension",
+        "typical_interval_in_km": 90000,
+        "notes": "Replace by leakage or handling decline",
+        "affected_assemblies": ["Shocks/struts", "Top mounts", "Suspension"]
       }
     ],
     "powertrain_timing": [
       {
         "name": "Timing belt",
-        "category": "Engine timing",
-        "typical_interval": "60-100k km or 5-7 years",
+        "assembly_name": "Engine timing (belt)",
+        "typical_interval_in_km": 90000,
         "notes": "Preventive; often replaced with water pump",
-        "sources": ["web:6", "web:10"]
+        "affected_assemblies": ["Engine", "Timing system", "Water pump"]
       },
       {
         "name": "Timing chain",
-        "category": "Engine timing",
-        "typical_interval": "Inspect at high mileage",
-        "notes": "Watch for stretch and rattle; model-dependent",
-        "sources": ["web:6", "web:17"]
+        "assembly_name": "Engine timing (chain)",
+        "typical_interval_in_km": null,
+        "notes": "Inspect at high mileage; model-dependent",
+        "affected_assemblies": ["Engine", "Timing system", "Tensioners", "Guides"]
       },
       {
         "name": "Water pump",
-        "category": "Cooling",
-        "typical_interval": "Often with timing belt",
-        "notes": "Prevent leaks/failure",
-        "sources": ["web:6", "web:10"]
+        "assembly_name": "Cooling",
+        "typical_interval_in_km": 90000,
+        "notes": "Often with timing belt",
+        "affected_assemblies": ["Cooling system", "Engine", "Timing system (if belt-driven)"]
       }
     ],
     "transmission_and_driveline": [
       {
         "name": "AT/CVT fluid",
-        "category": "Transmission",
-        "typical_interval": "Up to ~100k km (or sooner per OEM)",
+        "assembly_name": "Transmission",
+        "typical_interval_in_km": 100000,
         "notes": "Severe service shortens interval",
-        "sources": ["web:6", "web:20"]
+        "affected_assemblies": ["Automatic transmission", "CVT", "Valve body", "Internal differential"]
       },
       {
         "name": "MT/axle/differential oils",
-        "category": "Driveline",
-        "typical_interval": "50-100k km (type-dependent)",
+        "assembly_name": "Transmission/Driveline",
+        "typical_interval_in_km": 80000,
         "notes": "Follow viscosity/spec per unit",
-        "sources": ["web:6", "web:20"]
+        "affected_assemblies": ["Manual transmission", "Final drive", "Transfer case", "Axle differentials"]
       },
       {
         "name": "Clutch (manual)",
-        "category": "Transmission",
-        "typical_interval": "By wear; usage-dependent",
-        "notes": "Common, sometimes costly repair",
-        "sources": ["web:7", "web:16"]
+        "assembly_name": "Transmission",
+        "typical_interval_in_km": 120000,
+        "notes": "Highly usage-dependent; rough median",
+        "affected_assemblies": ["Clutch", "Flywheel", "Release bearing", "Manual transmission"]
       },
       {
         "name": "Wheel alignment",
-        "category": "Chassis",
-        "typical_interval": "After impacts/uneven tire wear",
-        "notes": "Improves tire life and handling",
-        "sources": ["web:10", "web:19"]
+        "assembly_name": "Chassis",
+        "typical_interval_in_km": null,
+        "notes": "After impacts or uneven tire wear",
+        "affected_assemblies": ["Suspension", "Steering", "Tires/Wheels"]
       }
     ],
     "service_patterns": [
       {
         "name": "30-60-90k services",
-        "category": "Service bundles",
-        "typical_interval": "At ~50k, 100k, 150k km",
-        "notes": "Expanded inspections and scheduled replacements",
-        "sources": ["web:6", "web:20"]
+        "assembly_name": "Service bundles",
+        "typical_interval_in_km": 50000,
+        "notes": "Expanded inspections and scheduled replacements at ~50k, 100k, 150k",
+        "affected_assemblies": ["Engine", "Brakes", "Suspension", "Transmission", "Cooling", "Electrical"]
       },
       {
         "name": "Tire rotation",
-        "category": "Tires",
-        "typical_interval": "Every 6-8k km",
+        "assembly_name": "Tires/Wheels",
+        "typical_interval_in_km": 8000,
         "notes": "Combine with oil service for convenience",
-        "sources": ["web:12", "web:9"]
+        "affected_assemblies": ["Tires/Wheels", "Suspension", "Wheel alignment"]
       },
       {
         "name": "Routine inspections",
-        "category": "General",
-        "typical_interval": "At every minor service",
-        "notes": "Belts, hoses, suspension, battery tests",
-        "sources": ["web:12", "web:6"]
+        "assembly_name": "General checks",
+        "typical_interval_in_km": 10000,
+        "notes": "Belts, hoses, suspension, battery tests at each minor service",
+        "affected_assemblies": ["Accessory drive", "Hoses", "Suspension", "Battery", "Brakes"]
       }
     ],
     "most_frequent_overall": [
@@ -205,6 +205,98 @@
       "12V battery",
       "Wiper blades",
       "Exterior bulbs"
+    ],
+    "assemblies": [
+      {
+        "name": "Engine",
+        "description": "Converts fuel energy into mechanical power via combustion and reciprocating components.",
+        "parts": ["Engine oil", "Oil filter", "Engine air filter", "Spark plugs", "Timing belt/chain", "PCV valve", "Drive belts"]
+      },
+      {
+        "name": "HVAC",
+        "description": "Heats, ventilates, and air-conditions the cabin to regulate interior comfort and defog windows.",
+        "parts": ["Cabin air filter", "A/C compressor", "Evaporator", "Heater core", "Blower motor", "HVAC controls"]
+      },
+      {
+        "name": "Brakes",
+        "description": "Hydraulic system that converts pedal force into clamping friction at wheels to slow or stop the vehicle.",
+        "parts": ["Brake pads", "Rotors/discs", "Brake fluid", "Calipers", "Master cylinder", "Brake hoses", "ABS module/sensors"]
+      },
+      {
+        "name": "Cooling",
+        "description": "Circulates coolant to absorb and dissipate engine heat through the radiator and related components.",
+        "parts": ["Coolant/antifreeze", "Radiator", "Thermostat", "Water pump", "Cooling fan", "Hoses"]
+      },
+      {
+        "name": "Visibility",
+        "description": "Wipers and related components that maintain clear driver sightlines in adverse weather.",
+        "parts": ["Wiper blades", "Wiper arms", "Washer pump", "Washer nozzles", "Rear wiper (if equipped)"]
+      },
+      {
+        "name": "Electrical",
+        "description": "Power generation, storage, and distribution for starting, charging, lighting, and control electronics.",
+        "parts": ["Battery (12V)", "Alternator", "Starter motor", "Fuses/relays", "Exterior bulbs", "Wiring harness"]
+      },
+      {
+        "name": "Ignition",
+        "description": "Generates and times the spark to ignite the air-fuel mixture in gasoline engines.",
+        "parts": ["Spark plugs", "Ignition coils", "Plug wires (if applicable)", "Crank/cam sensors", "ECU"]
+      },
+      {
+        "name": "Fuel system",
+        "description": "Stores, filters, and delivers fuel to the engine under controlled pressure and flow.",
+        "parts": ["Fuel filter", "Fuel pump (in-tank)", "Fuel injectors", "Fuel rail", "Fuel pressure regulator"]
+      },
+      {
+        "name": "Tires/Wheels",
+        "description": "Provide traction, support vehicle load, and transmit acceleration, braking, and steering forces.",
+        "parts": ["Tires", "Wheels", "TPMS sensors", "Lug nuts/studs"]
+      },
+      {
+        "name": "Accessory drive",
+        "description": "Belt-driven system powering alternator, water pump, power steering pump, and A/C compressor.",
+        "parts": ["Serpentine belt", "Idler pulleys", "Belt tensioner", "A/C compressor pulley", "Power steering pump pulley"]
+      },
+      {
+        "name": "Suspension",
+        "description": "Springs, dampers, and links that support the vehicle and manage ride, handling, and wheel control.",
+        "parts": ["Shock absorbers/struts", "Coil/leaf springs", "Control arms", "Stabilizer links/bushings", "Ball joints", "Strut mounts"]
+      },
+      {
+        "name": "Engine timing (belt)",
+        "description": "Toothed belt system synchronizing crankshaft and camshaft timing of valves and pistons.",
+        "parts": ["Timing belt", "Tensioner", "Idler pulleys", "Cam/crank sprockets", "Front oil seals"]
+      },
+      {
+        "name": "Engine timing (chain)",
+        "description": "Chain-driven mechanism that synchronizes crankshaft and camshaft with tensioners and guides.",
+        "parts": ["Timing chain", "Chain guides", "Hydraulic tensioner", "Cam/crank sprockets", "VVT actuators (if equipped)"]
+      },
+      {
+        "name": "Transmission",
+        "description": "Varies gear ratios and transmits engine torque to the driveline (automatic, CVT, or manual).",
+        "parts": ["AT/CVT fluid", "Clutch pack/bands (AT)", "Valve body (AT/CVT)", "Torque converter (AT)", "Shift solenoids", "Seals/gaskets"]
+      },
+      {
+        "name": "Transmission/Driveline",
+        "description": "Gearboxes, transfer case, driveshafts, and differentials that deliver torque to driven wheels.",
+        "parts": ["Manual transmission oil", "Differential oil", "Transfer case fluid", "Axle shafts/CV joints", "Driveshaft U-joints"]
+      },
+      {
+        "name": "Chassis",
+        "description": "Structural underbody that supports suspension, powertrain, and body, maintaining alignment and safety.",
+        "parts": ["Subframe", "Crossmembers", "Steering rack/tie rods", "Wheel hubs/bearings", "Alignment hardware"]
+      },
+      {
+        "name": "Service bundles",
+        "description": "Grouped maintenance packages at set mileage intervals covering inspections and planned replacements.",
+        "parts": ["Oil/filter service", "Air/cabin filters", "Brake inspection/service", "Fluids check/replacement", "Multi-point inspection"]
+      },
+      {
+        "name": "General checks",
+        "description": "Routine inspections of belts, hoses, fluids, suspension, brakes, and battery condition.",
+        "parts": ["Belts", "Hoses", "Fluids", "Suspension joints", "Brake components", "Battery test"]
+      }
     ]
   }
   
