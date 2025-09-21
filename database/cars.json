@@ -1,0 +1,261 @@
+{
+    "cars": {
+        "description": "Requested vehicles categorized by body/class, powertrain, transmission, suspension/frame, wheels/tires.",
+        "vehicles": [
+            {
+                "model": "Honda Fit GP1 2012",
+                "body_and_class": {
+                    "body": "hatchback",
+                    "segment": "B-segment_subcompact"
+                },
+                "powertrain": {
+                    "type": "full_hybrid_hev",
+                    "layout": "transverse_FWD",
+                    "engine": {
+                        "cylinders": "I4",
+                        "fuel": "gasoline"
+                    },
+                    "battery": "NiMH_or_Li-ion_~1kWh"
+                },
+                "transmission": {
+                    "type": "eCVT_power_split"
+                },
+                "suspension_and_frame": {
+                    "front": "macpherson_strut",
+                    "rear": "torsion_beam",
+                    "frame": "unibody"
+                },
+                "wheels_and_sizes": {
+                    "popular_oem": "175/65R15",
+                    "alt_common": "185/60R15"
+                },
+                "tire_types": {
+                    "season": ["summer", "winter", "all_weather"],
+                    "usage": "road_touring"
+                }
+            },
+            {
+                "model": "Porsche 911 2023",
+                "body_and_class": {
+                    "body": "coupe",
+                    "segment": "S-segment_sports"
+                },
+                "powertrain": {
+                    "type": "gasoline_ice",
+                    "layout": "rear_engine_longitudinal_RWD",
+                    "engine": {
+                        "cylinders": "flat_6",
+                        "fuel": "gasoline",
+                        "aspiration": "twin_turbo"
+                    }
+                },
+                "transmission": {
+                    "type": "dct_dual_clutch"
+                },
+                "suspension_and_frame": {
+                    "front": "macpherson_strut_variant",
+                    "rear": "multilink_rear",
+                    "frame": "unibody"
+                },
+                "wheels_and_sizes": {
+                    "popular_oem": ["245/35R20_front", "305/30R21_rear"],
+                    "alt_common": ["255/35R20_front", "315/30R21_rear"]
+                },
+                "tire_types": {
+                    "season": ["summer", "winter_performance"],
+                    "usage": ["performance_summer", "track_semi_slick"]
+                }
+            },
+            {
+                "model": "Tesla Model S 2020",
+                "body_and_class": {
+                    "body": "liftback",
+                    "segment": "E-segment_executive"
+                },
+                "powertrain": {
+                    "type": "bev",
+                    "layout": "dual_motor_AWD",
+                    "battery": "100+kWh_NMC",
+                    "charging": "AC_11kW_DC_200kW+"
+                },
+                "transmission": {
+                    "type": "ev_single_speed"
+                },
+                "suspension_and_frame": {
+                    "front": "double_wishbone",
+                    "rear": "multilink_rear",
+                    "frame": "unibody"
+                },
+                "wheels_and_sizes": {
+                    "popular_oem": "245/45R19",
+                    "alt_common": "245/35R21"
+                },
+                "tire_types": {
+                    "season": ["summer", "winter", "all_weather"],
+                    "usage": ["road_touring", "performance_summer"]
+                }
+            },
+            {
+                "model": "Porsche Cayenne 2018",
+                "body_and_class": {
+                    "body": "suv",
+                    "segment": "J-segment_mid_size_SUV"
+                },
+                "powertrain": {
+                    "type": "gasoline_ice",
+                    "layout": "longitudinal_AWD",
+                    "engine": {
+                        "cylinders": "V6",
+                        "fuel": "gasoline",
+                        "aspiration": "turbo"
+                    }
+                },
+                "transmission": {
+                    "type": "automatic_hydromechanical_at"
+                },
+                "suspension_and_frame": {
+                    "front": "double_wishbone",
+                    "rear": "multilink_rear",
+                    "frame": "unibody",
+                    "options": "air_suspension"
+                },
+                "wheels_and_sizes": {
+                    "popular_oem": "255/55R19",
+                    "alt_common": ["275/45R20", "285/40R21"]
+                },
+                "tire_types": {
+                    "season": ["summer", "winter", "all_weather"],
+                    "usage": ["highway_terrain", "performance_summer"]
+                }
+            },
+            {
+                "model": "Volvo XC70 2008",
+                "body_and_class": {
+                    "body": "station_wagon",
+                    "segment": "D_E_crossover_wagon"
+                },
+                "powertrain": {
+                    "type": "diesel_ice",
+                    "layout": "transverse_AWD",
+                    "engine": {
+                        "cylinders": "I5",
+                        "fuel": "diesel",
+                        "aspiration": "turbo"
+                    }
+                },
+                "transmission": {
+                    "type": "automatic_hydromechanical_at"
+                },
+                "suspension_and_frame": {
+                    "front": "macpherson_strut",
+                    "rear": "multilink_rear",
+                    "frame": "unibody"
+                },
+                "wheels_and_sizes": {
+                    "popular_oem": ["215/65R16", "235/55R17"],
+                    "alt_common": "235/50R18"
+                },
+                "tire_types": {
+                    "season": ["summer", "winter", "all_weather"],
+                    "usage": ["road_touring", "highway_terrain"]
+                }
+            },
+            {
+                "model": "Hyundai Santa Fe 2023",
+                "body_and_class": {
+                    "body": "suv",
+                    "segment": "J-segment_mid_size_SUV"
+                },
+                "powertrain": {
+                    "type": "gasoline_ice",
+                    "layout": "transverse_AWD",
+                    "engine": {
+                        "cylinders": "I4",
+                        "fuel": "gasoline",
+                        "aspiration": "turbo"
+                    }
+                },
+                "transmission": {
+                    "type": "dct_dual_clutch"
+                },
+                "suspension_and_frame": {
+                    "front": "macpherson_strut",
+                    "rear": "multilink_rear",
+                    "frame": "unibody"
+                },
+                "wheels_and_sizes": {
+                    "popular_oem": "235/60R18",
+                    "alt_common": ["235/55R19", "245/45R20"]
+                },
+                "tire_types": {
+                    "season": ["summer", "winter", "all_weather"],
+                    "usage": ["road_touring", "highway_terrain"]
+                }
+            },
+            {
+                "model": "Skoda Rapid 2015",
+                "body_and_class": {
+                    "body": "liftback",
+                    "segment": "C-segment_compact"
+                },
+                "powertrain": {
+                    "type": "gasoline_ice",
+                    "layout": "transverse_FWD",
+                    "engine": {
+                        "cylinders": "I4",
+                        "fuel": "gasoline",
+                        "aspiration": "turbo"
+                    }
+                },
+                "transmission": {
+                    "type": "dct_dual_clutch"
+                },
+                "suspension_and_frame": {
+                    "front": "macpherson_strut",
+                    "rear": "torsion_beam",
+                    "frame": "unibody"
+                },
+                "wheels_and_sizes": {
+                    "popular_oem": ["185/60R15", "205/55R16"],
+                    "alt_common": "215/45R17"
+                },
+                "tire_types": {
+                    "season": ["summer", "winter", "all_weather"],
+                    "usage": "road_touring"
+                }
+            },
+            {
+                "model": "Opel Vectra B 1998",
+                "body_and_class": {
+                    "body": "sedan",
+                    "segment": "D-segment_mid_size"
+                },
+                "powertrain": {
+                    "type": "gasoline_ice",
+                    "layout": "transverse_FWD",
+                    "engine": {
+                        "cylinders": "I4",
+                        "fuel": "gasoline",
+                        "aspiration": "naturally_aspirated"
+                    }
+                },
+                "transmission": {
+                    "type": "manual_mt"
+                },
+                "suspension_and_frame": {
+                    "front": "macpherson_strut",
+                    "rear": "multilink_rear",
+                    "frame": "unibody"
+                },
+                "wheels_and_sizes": {
+                    "popular_oem": "195/65R15",
+                    "alt_common": "205/55R16"
+                },
+                "tire_types": {
+                    "season": ["summer", "winter", "all_weather"],
+                    "usage": "road_touring"
+                }
+            }
+        ]
+    }
+}
