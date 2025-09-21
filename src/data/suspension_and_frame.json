@@ -1,0 +1,158 @@
+{
+  "suspension_and_frame": {
+    "description": "Front and rear suspension types plus frame construction.",
+    "front": [
+      {
+        "id": "macpherson_strut",
+        "name": "MacPherson Strut Suspension",
+        "description": "Compact strut with lower control arm; very common in front axles.",
+        "examples": [
+          "Honda Civic (all generations)",
+          "Toyota Corolla",
+          "Ford Focus",
+          "Volkswagen Golf",
+          "BMW 3 Series (E30, E36, E46)",
+          "Mazda3"
+        ]
+      },
+      {
+        "id": "double_wishbone",
+        "name": "Double Wishbone Suspension",
+        "description": "Upper and lower control arms for better camber control and handling.",
+        "examples": [
+          "Honda NSX (first generation)",
+          "Acura Integra Type R",
+          "BMW M3 (E30, E36)",
+          "Porsche 911 (classic models)",
+          "Lotus Elise",
+          "Ferrari F40"
+        ]
+      },
+      {
+        "id": "multilink_front",
+        "name": "Multi-Link Front Suspension",
+        "description": "Multiple links allowing refined kinematics; used in premium/performance cars.",
+        "examples": [
+          "BMW 5 Series (E39, E60, F10)",
+          "Mercedes-Benz E-Class (W211, W212)",
+          "Audi A6 (C5, C6, C7)",
+          "Lexus LS (all generations)",
+          "Infiniti Q50",
+          "Genesis G90"
+        ]
+      }
+    ],
+    "rear": [
+      {
+        "id": "torsion_beam",
+        "name": "Torsion Beam Suspension",
+        "description": "Semi-independent beam; space-efficient and cost-effective.",
+        "examples": [
+          "Volkswagen Golf (Mk1-Mk7)",
+          "Peugeot 206",
+          "Renault Clio",
+          "Opel Corsa",
+          "Fiat Punto",
+          "SEAT Ibiza"
+        ]
+      },
+      {
+        "id": "twist_beam",
+        "name": "Twist Beam Suspension",
+        "description": "Variant of torsion beam with tuned compliance; common in FWD compacts.",
+        "examples": [
+          "Honda Civic (8th-11th generation)",
+          "Toyota Corolla (E140, E170)",
+          "Ford Focus (Mk2, Mk3)",
+          "Hyundai Elantra",
+          "Kia Forte",
+          "Nissan Sentra"
+        ]
+      },
+      {
+        "id": "multilink_rear",
+        "name": "Multi-Link Rear Suspension",
+        "description": "Independent multi-link for comfort and handling.",
+        "examples": [
+          "BMW 3 Series (E36 onwards)",
+          "Mercedes-Benz C-Class (W203 onwards)",
+          "Audi A4 (B5 onwards)",
+          "Lexus IS (all generations)",
+          "Infiniti G35/G37",
+          "Genesis G70"
+        ]
+      },
+      {
+        "id": "double_wishbone_rear",
+        "name": "Double Wishbone Rear Suspension",
+        "description": "Independent, precise geometry; sports and premium vehicles.",
+        "examples": [
+          "Honda NSX (first generation)",
+          "Acura Integra Type R",
+          "BMW M3 (E30, E36)",
+          "Porsche 911 (classic models)",
+          "Lotus Elise/Exige",
+          "Ferrari 458 Italia"
+        ]
+      },
+      {
+        "id": "solid_axle",
+        "name": "Solid Axle Suspension",
+        "description": "Non-independent; robust for heavy-duty/pickups and some SUVs.",
+        "examples": [
+          "Ford F-150 (all generations)",
+          "Chevrolet Silverado",
+          "Ram 1500",
+          "Toyota Land Cruiser (older models)",
+          "Jeep Wrangler (all generations)",
+          "Mercedes-Benz G-Class"
+        ]
+      },
+      {
+        "id": "air_suspension",
+        "name": "Air Suspension",
+        "description": "Air springs with adaptive damping/height; comfort and load leveling.",
+        "examples": [
+          "Mercedes-Benz S-Class (W220 onwards)",
+          "BMW 7 Series (E65 onwards)",
+          "Audi A8 (D2 onwards)",
+          "Range Rover (all generations)",
+          "Lexus LS (4th generation onwards)",
+          "Tesla Model S"
+        ]
+      }
+    ],
+    "frame": [
+      {
+        "construction": "unibody",
+        "name": "Unibody Construction",
+        "description": "Monocoque structure integrating body and frame; standard for cars and crossovers.",
+        "examples": [
+          "Honda Accord (all generations)",
+          "Toyota Camry",
+          "BMW 3 Series",
+          "Mercedes-Benz C-Class",
+          "Audi A4",
+          "Lexus ES",
+          "Tesla Model 3",
+          "Ford Mustang (S197 onwards)"
+        ]
+      },
+      {
+        "construction": "body_on_frame",
+        "name": "Body-on-Frame Construction",
+        "description": "Separate ladder frame and body; used by many SUVs and pickups for durability.",
+        "examples": [
+          "Ford F-150 (all generations)",
+          "Chevrolet Silverado",
+          "Ram 1500",
+          "Toyota Land Cruiser",
+          "Jeep Wrangler",
+          "Mercedes-Benz G-Class",
+          "Land Rover Defender",
+          "Nissan Patrol"
+        ]
+      }
+    ]
+  }
+}

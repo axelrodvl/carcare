@@ -1,0 +1,335 @@
+{
+    "manufacturers_and_models": {
+        "description": "Major global automakers and notable models (1970–2025).",
+        "regions": [
+            {
+                "region": "USA",
+                "makers": [
+                    {
+                        "name": "Ford",
+                        "notable_models": [
+                            "F-150",
+                            "Mustang",
+                            "Explorer",
+                            "Taurus",
+                            "Fusion"
+                        ]
+                    },
+                    {
+                        "name": "Chevrolet",
+                        "notable_models": [
+                            "Silverado",
+                            "Camaro",
+                            "Impala",
+                            "Malibu",
+                            "Tahoe",
+                            "Suburban"
+                        ]
+                    },
+                    {
+                        "name": "Cadillac",
+                        "notable_models": [
+                            "Escalade",
+                            "CT5",
+                            "CTS",
+                            "DeVille"
+                        ]
+                    },
+                    {
+                        "name": "Chrysler/Dodge/Jeep/RAM",
+                        "notable_models": [
+                            "Ram 1500",
+                            "Charger",
+                            "Challenger",
+                            "Grand Cherokee",
+                            "Wrangler",
+                            "Pacifica"
+                        ]
+                    },
+                    {
+                        "name": "Tesla",
+                        "notable_models": [
+                            "Model S",
+                            "Model 3",
+                            "Model X",
+                            "Model Y"
+                        ]
+                    }
+                ]
+            },
+            {
+                "region": "EU",
+                "makers": [
+                    {
+                        "name": "Volkswagen",
+                        "notable_models": [
+                            "Golf",
+                            "Polo",
+                            "Passat",
+                            "Tiguan",
+                            "Touareg"
+                        ]
+                    },
+                    {
+                        "name": "Audi",
+                        "notable_models": [
+                            "Audi 80",
+                            "Audi 100",
+                            "A4",
+                            "A6",
+                            "A8",
+                            "Q5",
+                            "Q7"
+                        ]
+                    },
+                    {
+                        "name": "BMW",
+                        "notable_models": [
+                            "3 Series",
+                            "5 Series",
+                            "7 Series",
+                            "X3",
+                            "X5"
+                        ]
+                    },
+                    {
+                        "name": "Mercedes-Benz",
+                        "notable_models": [
+                            "C-Class",
+                            "E-Class",
+                            "S-Class",
+                            "GLC",
+                            "GLE",
+                            "G-Class"
+                        ]
+                    },
+                    {
+                        "name": "Renault",
+                        "notable_models": [
+                            "Clio",
+                            "Megane",
+                            "Scenic",
+                            "Captur"
+                        ]
+                    },
+                    {
+                        "name": "Peugeot",
+                        "notable_models": [
+                            "205",
+                            "308",
+                            "508",
+                            "3008"
+                        ]
+                    },
+                    {
+                        "name": "Volvo",
+                        "notable_models": [
+                            "240",
+                            "850",
+                            "S60",
+                            "V70",
+                            "XC70",
+                            "XC90"
+                        ]
+                    },
+                    {
+                        "name": "Skoda",
+                        "notable_models": [
+                            "Octavia",
+                            "Fabia",
+                            "Superb",
+                            "Rapid",
+                            "Kodiaq"
+                        ]
+                    },
+                    {
+                        "name": "Porsche",
+                        "notable_models": [
+                            "911",
+                            "Cayenne",
+                            "Panamera",
+                            "Macan"
+                        ]
+                    }
+                ]
+            },
+            {
+                "region": "Japan & Korea",
+                "makers": [
+                    {
+                        "name": "Toyota",
+                        "notable_models": [
+                            "Corolla",
+                            "Camry",
+                            "RAV4",
+                            "Land Cruiser",
+                            "Prius",
+                            "Hilux"
+                        ]
+                    },
+                    {
+                        "name": "Honda",
+                        "notable_models": [
+                            "Civic",
+                            "Accord",
+                            "Fit/Jazz",
+                            "CR-V"
+                        ]
+                    },
+                    {
+                        "name": "Nissan",
+                        "notable_models": [
+                            "Sentra",
+                            "Altima",
+                            "GT-R",
+                            "Qashqai",
+                            "X-Trail"
+                        ]
+                    },
+                    {
+                        "name": "Mazda",
+                        "notable_models": [
+                            "Mazda 3",
+                            "Mazda 6",
+                            "CX-5",
+                            "MX-5"
+                        ]
+                    },
+                    {
+                        "name": "Subaru",
+                        "notable_models": [
+                            "Impreza",
+                            "Legacy",
+                            "Forester",
+                            "Outback"
+                        ]
+                    },
+                    {
+                        "name": "Mitsubishi",
+                        "notable_models": [
+                            "Lancer",
+                            "Outlander",
+                            "Pajero/Montero"
+                        ]
+                    },
+                    {
+                        "name": "Hyundai",
+                        "notable_models": [
+                            "Elantra",
+                            "Sonata",
+                            "Tucson",
+                            "Santa Fe"
+                        ]
+                    },
+                    {
+                        "name": "Kia",
+                        "notable_models": [
+                            "Rio",
+                            "Ceed",
+                            "Sportage",
+                            "Sorento"
+                        ]
+                    }
+                ]
+            },
+            {
+                "region": "China",
+                "makers": [
+                    {
+                        "name": "BYD",
+                        "notable_models": [
+                            "Qin",
+                            "Tang",
+                            "Han",
+                            "Atto 3",
+                            "Seal"
+                        ]
+                    },
+                    {
+                        "name": "Geely",
+                        "notable_models": [
+                            "Coolray",
+                            "Emgrand",
+                            "Geometry"
+                        ]
+                    },
+                    {
+                        "name": "Chery",
+                        "notable_models": [
+                            "Tiggo",
+                            "Arrizo"
+                        ]
+                    },
+                    {
+                        "name": "Great_Wall",
+                        "notable_models": [
+                            "Haval H6",
+                            "Tank Series"
+                        ]
+                    },
+                    {
+                        "name": "NIO",
+                        "notable_models": [
+                            "ES6",
+                            "ES8",
+                            "ET7"
+                        ]
+                    },
+                    {
+                        "name": "XPeng",
+                        "notable_models": [
+                            "P7",
+                            "G9"
+                        ]
+                    },
+                    {
+                        "name": "Li_Auto",
+                        "notable_models": [
+                            "Li One",
+                            "L7",
+                            "L8",
+                            "L9"
+                        ]
+                    }
+                ]
+            },
+            {
+                "region": "Russia and others",
+                "makers": [
+                    {
+                        "name": "Lada",
+                        "notable_models": [
+                            "2101/2107 Classic",
+                            "Samara",
+                            "Priora",
+                            "Vesta",
+                            "Granta",
+                            "Niva 4x4"
+                        ]
+                    },
+                    {
+                        "name": "Tata",
+                        "notable_models": [
+                            "Indica",
+                            "Safari"
+                        ]
+                    },
+                    {
+                        "name": "Proton",
+                        "notable_models": [
+                            "Saga",
+                            "Persona"
+                        ]
+                    },
+                    {
+                        "name": "SAIPA/Iran Khodro",
+                        "notable_models": [
+                            "Pride",
+                            "Samand"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "transmissions": {
+        "description": "Common transmission types across markets.",
+        "types": [
+            {
+                "id": "manual_mt",
+                "name": "Manual MT",
+                "description": "Driver-operated clutch with H-pattern or sequential gear selection; 4–7 speeds typical.",
+                "examples": [
+                    "Honda Civic Type R",
+                    "Subaru WRX STI",
+                    "BMW M3",
+                    "Porsche 911 GT3",
+                    "Ford Mustang GT"
+                ]
+            },
+            {
+                "id": "automatic_hydromechanical_at",
+                "name": "Automatic Hydromechanical AT",
+                "description": "Torque converter automatic with planetary gearsets; 6–10 speeds common.",
+                "examples": [
+                    "Toyota Camry",
+                    "Honda Accord",
+                    "BMW 3 Series",
+                    "Mercedes-Benz C-Class",
+                    "Audi A4"
+                ]
+            },
+            {
+                "id": "cvt",
+                "name": "CVT",
+                "description": "Continuously variable transmission using belt/chain or toroidal rollers; stepless ratios.",
+                "examples": [
+                    "Nissan Altima",
+                    "Subaru Outback",
+                    "Honda CR-V",
+                    "Toyota Prius",
+                    "Mitsubishi Outlander"
+                ]
+            },
+            {
+                "id": "dct_dual_clutch",
+                "name": "DCT Dual Clutch",
+                "description": "Automated manual with two clutches for odd/even gears; fast shifts.",
+                "examples": [
+                    "Volkswagen Golf GTI",
+                    "Audi TT",
+                    "BMW M2",
+                    "Porsche 911 Carrera",
+                    "Hyundai Veloster N"
+                ]
+            },
+            {
+                "id": "amt_single_clutch_robot",
+                "name": "AMT Single Clutch Robot",
+                "description": "Automated single-clutch manual; cost-effective but can be jerky.",
+                "examples": [
+                    "Fiat 500",
+                    "Smart Fortwo",
+                    "Opel Corsa",
+                    "Renault Clio",
+                    "Peugeot 208"
+                ]
+            },
+            {
+                "id": "ev_single_speed",
+                "name": "EV Single Speed",
+                "description": "Single-speed reduction gear for BEVs; some performance EVs use 2-speed.",
+                "examples": [
+                    "Tesla Model 3",
+                    "Tesla Model S",
+                    "Nissan Leaf",
+                    "BMW i3",
+                    "Chevrolet Bolt EV"
+                ]
+            }
+        ]
+    }
+}

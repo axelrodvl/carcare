@@ -1,0 +1,153 @@
+{
+    "body_and_class": {
+        "description": "Body styles and market segments used in EU and US (sedan/saloon, hatchback, SUV, etc.) aligned with Euro segments and US EPA size classes.",
+        "body_styles": [
+            {
+                "id": "sedan",
+                "name": "Sedan",
+                "aka": ["saloon"],
+                "description": "Three-box body with separate engine, passenger, and trunk compartments; typically 4 doors."
+            },
+            {
+                "id": "hatchback",
+                "name": "Hatchback",
+                "aka": [],
+                "description": "Two-box design with rear hatch door and folding rear seats for cargo flexibility."
+            },
+            {
+                "id": "liftback",
+                "name": "Liftback",
+                "aka": [],
+                "description": "Sloped rear with a full hatch like a hatchback but with sedan-like profile."
+            },
+            {
+                "id": "coupe",
+                "name": "Coupe",
+                "aka": [],
+                "description": "Two-door sporty body, fixed roof, typically a sloping rear and 2+2 seating."
+            },
+            {
+                "id": "convertible",
+                "name": "Convertible",
+                "aka": ["cabriolet"],
+                "description": "Open-top variant with retractable soft or hard roof."
+            },
+            {
+                "id": "roadster",
+                "name": "Roadster",
+                "aka": [],
+                "description": "Two-seat open-top sports car emphasizing light weight and handling."
+            },
+            {
+                "id": "station_wagon",
+                "name": "Station Wagon",
+                "aka": "estate",
+                "description": "Extended roofline with rear cargo area accessed by a tailgate."
+            },
+            {
+                "id": "fastback",
+                "name": "Fastback",
+                "aka": [],
+                "description": "Continuous slope from roof to tail; may be coupe or sedan derivative."
+            },
+            {
+                "id": "mpv",
+                "name": "MPV",
+                "aka": "minivan",
+                "description": "Multi-purpose vehicle with flexible seating for families and cargo."
+            },
+            {
+                "id": "suv",
+                "name": "SUV",
+                "aka": [],
+                "description": "Sport utility vehicle with elevated ride height; body-on-frame or unibody."
+            },
+            {
+                "id": "crossover",
+                "name": "Crossover",
+                "aka": "cuv",
+                "description": "Unibody SUV-like vehicle based on a car platform."
+            },
+            {
+                "id": "pickup",
+                "name": "Pickup",
+                "aka": "pickup_truck",
+                "description": "Open cargo bed behind a passenger cab; light truck."
+            },
+            {
+                "id": "limousine",
+                "name": "Limousine",
+                "aka": [],
+                "description": "Chauffeured, extended wheelbase luxury vehicle."
+            },
+            {
+                "id": "hearse",
+                "name": "Hearse",
+                "aka": "funeral_coach",
+                "description": "Modified vehicle for transporting coffins."
+            },
+            {
+                "id": "buggy",
+                "name": "Buggy",
+                "aka": [],
+                "description": "Lightweight open vehicle, often for sand/off-road leisure."
+            }
+        ],
+        "market_segments": [
+            {
+                "segment": "A-segment",
+                "region": "EU",
+                "us_equivalent": "minicompact",
+                "description": "City cars; smallest mainstream class such as Fiat 500, Toyota Aygo."
+            },
+            {
+                "segment": "B-segment",
+                "region": "EU",
+                "us_equivalent": "subcompact",
+                "description": "Superminis/subcompacts such as Ford Fiesta, VW Polo."
+            },
+            {
+                "segment": "C-segment",
+                "region": "EU",
+                "us_equivalent": "compact",
+                "description": "Small family/compact cars such as Honda Civic, Toyota Corolla."
+            },
+            {
+                "segment": "D-segment",
+                "region": "EU",
+                "us_equivalent": "mid-size",
+                "description": "Large family/mid-size cars such as Toyota Camry, VW Passat."
+            },
+            {
+                "segment": "E-segment",
+                "region": "EU",
+                "us_equivalent": "full-size",
+                "description": "Executive/large cars including luxury and non-luxury full-size."
+            },
+            {
+                "segment": "F-segment",
+                "region": "EU",
+                "us_equivalent": "full-size_luxury",
+                "description": "Luxury saloons/limousines such as Mercedes S-Class."
+            },
+            {
+                "segment": "S-segment",
+                "region": "EU",
+                "us_equivalent": "sports",
+                "description": "Sports/performance cars including roadsters and supercars."
+            },
+            {
+                "segment": "M-segment",
+                "region": "EU",
+                "us_equivalent": "minivan",
+                "description": "MPVs/people-movers across sizes."
+            },
+            {
+                "segment": "J-segment",
+                "region": "EU",
+                "us_equivalent": "SUV",
+                "description": "SUVs by size: subcompact, compact, mid-size, full-size."
+            }
+        ]
+    }
+}
