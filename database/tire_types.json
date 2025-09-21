@@ -1,0 +1,59 @@
+{
+    "tire_types": {
+        "description": "Tire categories by surface and season.",
+        "usage_types": [
+            {
+                "type": "road_touring",
+                "name": "Road Touring",
+                "description": "Comfort, longevity, fuel economy for paved roads."
+            },
+            {
+                "type": "performance_summer",
+                "name": "Performance Summer",
+                "description": "Dry/wet grip at warm temps; higher speed ratings."
+            },
+            {
+                "type": "track_semi_slick",
+                "name": "Track Semi-Slick",
+                "description": "R-compound or semi-slick for track with limited wet performance."
+            },
+            {
+                "type": "all_terrain",
+                "name": "All-Terrain",
+                "description": "Balanced on/off-road with stronger sidewalls and tread."
+            },
+            {
+                "type": "mud_terrain",
+                "name": "Mud Terrain",
+                "description": "Aggressive lugs for deep mud and off-road traction."
+            },
+            {
+                "type": "highway_terrain",
+                "name": "Highway Terrain",
+                "description": "SUV/truck tires optimized for paved-road comfort and durability."
+            }
+        ],
+        "season_types": [
+            {
+                "type": "summer",
+                "name": "Summer",
+                "description": "Optimized for warm temperatures; hardens in cold."
+            },
+            {
+                "type": "winter",
+                "name": "Winter",
+                "description": "Soft compound and sipes for snow/ice; includes studded variants."
+            },
+            {
+                "type": "all_season",
+                "name": "All-Season",
+                "description": "Compromise for varied conditions but not specialized for extreme cold."
+            },
+            {
+                "type": "all_weather",
+                "name": "All-Weather",
+                "description": "3PMSF-rated for winter compliance while retaining year-round usability."
+            }
+        ]
+    }
+}
