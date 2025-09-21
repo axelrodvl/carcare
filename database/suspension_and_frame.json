@@ -3,7 +3,7 @@
     "description": "Front and rear suspension types plus frame construction.",
     "front": [
       {
-        "type": "macpherson_strut",
+        "id": "macpherson_strut",
         "name": "MacPherson Strut Suspension",
         "description": "Compact strut with lower control arm; very common in front axles.",
         "examples": [
@@ -16,7 +16,7 @@
         ]
       },
       {
-        "type": "double_wishbone",
+        "id": "double_wishbone",
         "name": "Double Wishbone Suspension",
         "description": "Upper and lower control arms for better camber control and handling.",
         "examples": [
@@ -29,7 +29,7 @@
         ]
       },
       {
-        "type": "multilink_front",
+        "id": "multilink_front",
         "name": "Multi-Link Front Suspension",
         "description": "Multiple links allowing refined kinematics; used in premium/performance cars.",
         "examples": [
@@ -44,7 +44,7 @@
     ],
     "rear": [
       {
-        "type": "torsion_beam",
+        "id": "torsion_beam",
         "name": "Torsion Beam Suspension",
         "description": "Semi-independent beam; space-efficient and cost-effective.",
         "examples": [
@@ -57,7 +57,7 @@
         ]
       },
       {
-        "type": "twist_beam",
+        "id": "twist_beam",
         "name": "Twist Beam Suspension",
         "description": "Variant of torsion beam with tuned compliance; common in FWD compacts.",
         "examples": [
@@ -70,7 +70,7 @@
         ]
       },
       {
-        "type": "multilink_rear",
+        "id": "multilink_rear",
         "name": "Multi-Link Rear Suspension",
         "description": "Independent multi-link for comfort and handling.",
         "examples": [
@@ -83,7 +83,7 @@
         ]
       },
       {
-        "type": "double_wishbone_rear",
+        "id": "double_wishbone_rear",
         "name": "Double Wishbone Rear Suspension",
         "description": "Independent, precise geometry; sports and premium vehicles.",
         "examples": [
@@ -96,7 +96,7 @@
         ]
       },
       {
-        "type": "solid_axle",
+        "id": "solid_axle",
         "name": "Solid Axle Suspension",
         "description": "Non-independent; robust for heavy-duty/pickups and some SUVs.",
         "examples": [
@@ -109,7 +109,7 @@
         ]
       },
       {
-        "type": "air_suspension",
+        "id": "air_suspension",
         "name": "Air Suspension",
         "description": "Air springs with adaptive damping/height; comfort and load leveling.",
         "examples": [

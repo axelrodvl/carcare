@@ -3,77 +3,92 @@
         "description": "Body styles and market segments used in EU and US (sedan/saloon, hatchback, SUV, etc.) aligned with Euro segments and US EPA size classes.",
         "body_styles": [
             {
-                "type": "sedan",
+                "id": "sedan",
+                "name": "Sedan",
                 "aka": ["saloon"],
                 "description": "Three-box body with separate engine, passenger, and trunk compartments; typically 4 doors."
             },
             {
-                "type": "hatchback",
+                "id": "hatchback",
+                "name": "Hatchback",
                 "aka": [],
                 "description": "Two-box design with rear hatch door and folding rear seats for cargo flexibility."
             },
             {
-                "type": "liftback",
+                "id": "liftback",
+                "name": "Liftback",
                 "aka": [],
                 "description": "Sloped rear with a full hatch like a hatchback but with sedan-like profile."
             },
             {
-                "type": "coupe",
+                "id": "coupe",
+                "name": "Coupe",
                 "aka": [],
                 "description": "Two-door sporty body, fixed roof, typically a sloping rear and 2+2 seating."
             },
             {
-                "type": "convertible",
+                "id": "convertible",
+                "name": "Convertible",
                 "aka": ["cabriolet"],
                 "description": "Open-top variant with retractable soft or hard roof."
             },
             {
-                "type": "roadster",
+                "id": "roadster",
+                "name": "Roadster",
                 "aka": [],
                 "description": "Two-seat open-top sports car emphasizing light weight and handling."
             },
             {
-                "type": "station_wagon",
+                "id": "station_wagon",
+                "name": "Station Wagon",
                 "aka": "estate",
                 "description": "Extended roofline with rear cargo area accessed by a tailgate."
             },
             {
-                "type": "fastback",
+                "id": "fastback",
+                "name": "Fastback",
                 "aka": [],
                 "description": "Continuous slope from roof to tail; may be coupe or sedan derivative."
             },
             {
-                "type": "mpv",
+                "id": "mpv",
+                "name": "MPV",
                 "aka": "minivan",
                 "description": "Multi-purpose vehicle with flexible seating for families and cargo."
             },
             {
-                "type": "suv",
+                "id": "suv",
+                "name": "SUV",
                 "aka": [],
                 "description": "Sport utility vehicle with elevated ride height; body-on-frame or unibody."
             },
             {
-                "type": "crossover",
+                "id": "crossover",
+                "name": "Crossover",
                 "aka": "cuv",
                 "description": "Unibody SUV-like vehicle based on a car platform."
             },
             {
-                "type": "pickup",
+                "id": "pickup",
+                "name": "Pickup",
                 "aka": "pickup_truck",
                 "description": "Open cargo bed behind a passenger cab; light truck."
             },
             {
-                "type": "limousine",
+                "id": "limousine",
+                "name": "Limousine",
                 "aka": [],
                 "description": "Chauffeured, extended wheelbase luxury vehicle."
             },
             {
-                "type": "hearse",
+                "id": "hearse",
+                "name": "Hearse",
                 "aka": "funeral_coach",
                 "description": "Modified vehicle for transporting coffins."
             },
             {
-                "type": "buggy",
+                "id": "buggy",
+                "name": "Buggy",
                 "aka": [],
                 "description": "Lightweight open vehicle, often for sand/off-road leisure."
             }

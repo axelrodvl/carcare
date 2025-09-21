@@ -3,7 +3,8 @@
         "description": "Common transmission types across markets.",
         "types": [
             {
-                "type": "manual_mt",
+                "id": "manual_mt",
+                "name": "Manual MT",
                 "description": "Driver-operated clutch with H-pattern or sequential gear selection; 4–7 speeds typical.",
                 "examples": [
                     "Honda Civic Type R",
@@ -14,7 +15,8 @@
                 ]
             },
             {
-                "type": "automatic_hydromechanical_at",
+                "id": "automatic_hydromechanical_at",
+                "name": "Automatic Hydromechanical AT",
                 "description": "Torque converter automatic with planetary gearsets; 6–10 speeds common.",
                 "examples": [
                     "Toyota Camry",
@@ -25,7 +27,8 @@
                 ]
             },
             {
-                "type": "cvt",
+                "id": "cvt",
+                "name": "CVT",
                 "description": "Continuously variable transmission using belt/chain or toroidal rollers; stepless ratios.",
                 "examples": [
                     "Nissan Altima",
@@ -36,7 +39,8 @@
                 ]
             },
             {
-                "type": "dct_dual_clutch",
+                "id": "dct_dual_clutch",
+                "name": "DCT Dual Clutch",
                 "description": "Automated manual with two clutches for odd/even gears; fast shifts.",
                 "examples": [
                     "Volkswagen Golf GTI",
@@ -47,7 +51,8 @@
                 ]
             },
             {
-                "type": "amt_single_clutch_robot",
+                "id": "amt_single_clutch_robot",
+                "name": "AMT Single Clutch Robot",
                 "description": "Automated single-clutch manual; cost-effective but can be jerky.",
                 "examples": [
                     "Fiat 500",
@@ -58,7 +63,8 @@
                 ]
             },
             {
-                "type": "ev_single_speed",
+                "id": "ev_single_speed",
+                "name": "EV Single Speed",
                 "description": "Single-speed reduction gear for BEVs; some performance EVs use 2-speed.",
                 "examples": [
                     "Tesla Model 3",

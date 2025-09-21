@@ -9,7 +9,8 @@
                     "segment": "B-segment_subcompact"
                 },
                 "powertrain": {
-                    "type": "full_hybrid_hev",
+                    "id": "full_hybrid_hev",
+                    "name": "Full Hybrid HEV",
                     "layout": "transverse_FWD",
                     "engine": {
                         "cylinders": "I4",
@@ -18,7 +19,8 @@
                     "battery": "NiMH_or_Li-ion_~1kWh"
                 },
                 "transmission": {
-                    "type": "eCVT_power_split"
+                    "id": "eCVT_power_split",
+                    "name": "eCVT Power Split"
                 },
                 "suspension_and_frame": {
                     "front": "macpherson_strut",
@@ -41,7 +43,8 @@
                     "segment": "S-segment_sports"
                 },
                 "powertrain": {
-                    "type": "gasoline_ice",
+                    "id": "gasoline_ice",
+                    "name": "Gasoline ICE",
                     "layout": "rear_engine_longitudinal_RWD",
                     "engine": {
                         "cylinders": "flat_6",
@@ -50,7 +53,8 @@
                     }
                 },
                 "transmission": {
-                    "type": "dct_dual_clutch"
+                    "id": "dct_dual_clutch",
+                    "name": "DCT Dual Clutch"
                 },
                 "suspension_and_frame": {
                     "front": "macpherson_strut_variant",
@@ -73,13 +77,15 @@
                     "segment": "E-segment_executive"
                 },
                 "powertrain": {
-                    "type": "bev",
+                    "id": "bev",
+                    "name": "BEV",
                     "layout": "dual_motor_AWD",
                     "battery": "100+kWh_NMC",
                     "charging": "AC_11kW_DC_200kW+"
                 },
                 "transmission": {
-                    "type": "ev_single_speed"
+                    "id": "ev_single_speed",
+                    "name": "EV Single Speed"
                 },
                 "suspension_and_frame": {
                     "front": "double_wishbone",
@@ -102,7 +108,8 @@
                     "segment": "J-segment_mid_size_SUV"
                 },
                 "powertrain": {
-                    "type": "gasoline_ice",
+                    "id": "gasoline_ice",
+                    "name": "Gasoline ICE",
                     "layout": "longitudinal_AWD",
                     "engine": {
                         "cylinders": "V6",
@@ -111,7 +118,8 @@
                     }
                 },
                 "transmission": {
-                    "type": "automatic_hydromechanical_at"
+                    "id": "automatic_hydromechanical_at",
+                    "name": "Automatic Hydromechanical AT"
                 },
                 "suspension_and_frame": {
                     "front": "double_wishbone",
@@ -135,7 +143,8 @@
                     "segment": "D_E_crossover_wagon"
                 },
                 "powertrain": {
-                    "type": "diesel_ice",
+                    "id": "diesel_ice",
+                    "name": "Diesel ICE",
                     "layout": "transverse_AWD",
                     "engine": {
                         "cylinders": "I5",
@@ -144,7 +153,8 @@
                     }
                 },
                 "transmission": {
-                    "type": "automatic_hydromechanical_at"
+                    "id": "automatic_hydromechanical_at",
+                    "name": "Automatic Hydromechanical AT"
                 },
                 "suspension_and_frame": {
                     "front": "macpherson_strut",
@@ -167,7 +177,8 @@
                     "segment": "J-segment_mid_size_SUV"
                 },
                 "powertrain": {
-                    "type": "gasoline_ice",
+                    "id": "gasoline_ice",
+                    "name": "Gasoline ICE",
                     "layout": "transverse_AWD",
                     "engine": {
                         "cylinders": "I4",
@@ -176,7 +187,8 @@
                     }
                 },
                 "transmission": {
-                    "type": "dct_dual_clutch"
+                    "id": "dct_dual_clutch",
+                    "name": "DCT Dual Clutch"
                 },
                 "suspension_and_frame": {
                     "front": "macpherson_strut",
@@ -199,7 +211,8 @@
                     "segment": "C-segment_compact"
                 },
                 "powertrain": {
-                    "type": "gasoline_ice",
+                    "id": "gasoline_ice",
+                    "name": "Gasoline ICE",
                     "layout": "transverse_FWD",
                     "engine": {
                         "cylinders": "I4",
@@ -208,7 +221,8 @@
                     }
                 },
                 "transmission": {
-                    "type": "dct_dual_clutch"
+                    "id": "dct_dual_clutch",
+                    "name": "DCT Dual Clutch"
                 },
                 "suspension_and_frame": {
                     "front": "macpherson_strut",
@@ -231,7 +245,8 @@
                     "segment": "D-segment_mid_size"
                 },
                 "powertrain": {
-                    "type": "gasoline_ice",
+                    "id": "gasoline_ice",
+                    "name": "Gasoline ICE",
                     "layout": "transverse_FWD",
                     "engine": {
                         "cylinders": "I4",
@@ -240,7 +255,8 @@
                     }
                 },
                 "transmission": {
-                    "type": "manual_mt"
+                    "id": "manual_mt",
+                    "name": "Manual MT"
                 },
                 "suspension_and_frame": {
                     "front": "macpherson_strut",

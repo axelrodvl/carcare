@@ -3,7 +3,8 @@
         "description": "Engine/motor types with typical layout, power, cylinders, and energy types; notes cover longitudinal/transverse and hub motors.",
         "types": [
             {
-                "type": "gasoline_ice",
+                "id": "gasoline_ice",
+                "name": "Gasoline ICE",
                 "description": "Spark-ignition internal combustion using gasoline (petrol).",
                 "petrol": {
                     "typical_layouts": [
@@ -31,7 +32,8 @@
                 "notes": "Transverse commonly in FWD compacts; longitudinal in RWD/AWD and performance cars."
             },
             {
-                "type": "diesel_ice",
+                "id": "diesel_ice",
+                "name": "Diesel ICE",
                 "description": "Compression-ignition internal combustion using diesel.",
                 "petrol": {
                     "typical_layouts": [
@@ -56,7 +58,8 @@
                 "notes": "Favored in EU for efficiency and torque; used in SUVs and long-distance cars."
             },
             {
-                "type": "mild_hybrid_mhev",
+                "id": "mild_hybrid_mhev",
+                "name": "Mild Hybrid MHEV",
                 "description": "ICE with 12–48V belt-integrated starter-generator for assist and regen.",
                 "petrol": {
                     "typical_layouts": [
@@ -88,7 +91,8 @@
                 "notes": "Does not propel vehicle on electric power alone."
             },
             {
-                "type": "full_hybrid_hev",
+                "id": "full_hybrid_hev",
+                "name": "Full Hybrid HEV",
                 "description": "ICE plus electric motor and small traction battery; limited EV-only operation.",
                 "petrol": {
                     "typical_layouts": [
@@ -119,7 +123,8 @@
                 "notes": "Power-split or series-parallel architectures common."
             },
             {
-                "type": "plug_in_hybrid_phev",
+                "id": "plug_in_hybrid_phev",
+                "name": "Plug-in Hybrid PHEV",
                 "description": "Hybrid with external charging and larger battery enabling substantial EV range.",
                 "petrol": {
                     "typical_layouts": [
@@ -150,7 +155,8 @@
                 "notes": "Can drive significant distances in EV mode; AC charging standard."
             },
             {
-                "type": "series_hybrid",
+                "id": "series_hybrid",
+                "name": "Series Hybrid",
                 "description": "ICE acts as generator; electric motor drives wheels.",
                 "petrol": {
                     "typical_layouts": [
@@ -180,7 +186,8 @@
                 "notes": "Engine decoupled from wheels; smooth power delivery."
             },
             {
-                "type": "bev",
+                "id": "bev",
+                "name": "BEV",
                 "description": "Battery electric vehicle using one or more electric motors.",
                 "electrical": {
                     "typical_layouts": [
@@ -201,7 +208,8 @@
                 "notes": "No cylinders; motors may be axle-mounted; hub motors exist but uncommon."
             },
             {
-                "type": "fuel_cell_fcev",
+                "id": "fuel_cell_fcev",
+                "name": "Fuel Cell FCEV",
                 "description": "Hydrogen fuel cell generates electricity for motors.",
                 "electrical": {
                     "typical_layouts": [
@@ -221,7 +229,8 @@
                 "notes": "Limited infrastructure; water vapor exhaust."
             },
             {
-                "type": "range_extender_ev",
+                "id": "range_extender_ev",
+                "name": "Range Extender EV",
                 "description": "BEV with small ICE generator solely to extend range.",
                 "petrol": {
                     "typical_layouts": [
