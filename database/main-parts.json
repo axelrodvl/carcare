@@ -1,0 +1,210 @@
+{
+    "consumables": [
+      {
+        "name": "Engine oil",
+        "category": "Engine",
+        "typical_interval": "5-10k km or 1 year",
+        "notes": "Interval depends on oil spec and driving conditions",
+        "sources": ["web:12", "web:6"]
+      },
+      {
+        "name": "Oil filter",
+        "category": "Engine",
+        "typical_interval": "With every oil change",
+        "notes": "Replace together with oil",
+        "sources": ["web:12", "web:6"]
+      },
+      {
+        "name": "Engine air filter",
+        "category": "Engine",
+        "typical_interval": "15-20k km",
+        "notes": "Sooner in dusty conditions",
+        "sources": ["web:9", "web:6"]
+      },
+      {
+        "name": "Cabin air filter",
+        "category": "HVAC",
+        "typical_interval": "10-20k km or 1 year",
+        "notes": "Maintains HVAC efficiency and air quality",
+        "sources": ["web:2", "web:6"]
+      },
+      {
+        "name": "Brake fluid",
+        "category": "Brakes",
+        "typical_interval": "Every 2 years",
+        "notes": "Hygroscopic; prevents corrosion and boiling",
+        "sources": ["web:6", "web:20"]
+      },
+      {
+        "name": "Coolant/Antifreeze",
+        "category": "Cooling",
+        "typical_interval": "About every 2 years (per OEM)",
+        "notes": "Follow OEM spec and service interval",
+        "sources": ["web:6", "web:20"]
+      },
+      {
+        "name": "Wiper blades",
+        "category": "Visibility",
+        "typical_interval": "6-12 months",
+        "notes": "UV and ozone degrade rubber",
+        "sources": ["web:12", "web:5"]
+      },
+      {
+        "name": "Exterior bulbs (head/stop/marker)",
+        "category": "Electrical",
+        "typical_interval": "As needed",
+        "notes": "Replace on failure; safety-critical",
+        "sources": ["web:5", "web:14"]
+      },
+      {
+        "name": "Spark plugs",
+        "category": "Ignition",
+        "typical_interval": "30-100k km (type-dependent)",
+        "notes": "Iridium/plat. last longer than copper",
+        "sources": ["web:3", "web:6"]
+      },
+      {
+        "name": "Fuel filter",
+        "category": "Fuel",
+        "typical_interval": "Per OEM (often at major services)",
+        "notes": "Some are in-tank and long-life",
+        "sources": ["web:6", "web:20"]
+      }
+    ],
+    "wear_items": [
+      {
+        "name": "Brake pads",
+        "category": "Brakes",
+        "typical_interval": "30-50k km (driving-dependent)",
+        "notes": "City driving and heavy loads shorten life",
+        "sources": ["web:5", "web:9"]
+      },
+      {
+        "name": "Brake rotors/discs",
+        "category": "Brakes",
+        "typical_interval": "With 1-2 pad sets or by min thickness",
+        "notes": "Replace/turn if warped or below spec",
+        "sources": ["web:9", "web:19"]
+      },
+      {
+        "name": "Tires",
+        "category": "Tires",
+        "typical_interval": "40-60k km or 4-5 years",
+        "notes": "Rotate every 6-8k km; maintain pressure",
+        "sources": ["web:9", "web:5"]
+      },
+      {
+        "name": "12V battery",
+        "category": "Electrical",
+        "typical_interval": "2-3 years average",
+        "notes": "Climate and short trips reduce lifespan",
+        "sources": ["web:5", "web:4"]
+      },
+      {
+        "name": "Accessory/serpentine belts",
+        "category": "Engine drive",
+        "typical_interval": "Inspect each service; replace by cracks/noise",
+        "notes": "Tensioner/idlers may wear too",
+        "sources": ["web:2", "web:6"]
+      },
+      {
+        "name": "Suspension bushings and links",
+        "category": "Suspension",
+        "typical_interval": "By wear/noise",
+        "notes": "Includes sway bar links and control arm bushings",
+        "sources": ["web:6", "web:10"]
+      },
+      {
+        "name": "Shock absorbers/struts",
+        "category": "Suspension",
+        "typical_interval": "By leakage or handling decline",
+        "notes": "Check at major services",
+        "sources": ["web:6", "web:10"]
+      }
+    ],
+    "powertrain_timing": [
+      {
+        "name": "Timing belt",
+        "category": "Engine timing",
+        "typical_interval": "60-100k km or 5-7 years",
+        "notes": "Preventive; often replaced with water pump",
+        "sources": ["web:6", "web:10"]
+      },
+      {
+        "name": "Timing chain",
+        "category": "Engine timing",
+        "typical_interval": "Inspect at high mileage",
+        "notes": "Watch for stretch and rattle; model-dependent",
+        "sources": ["web:6", "web:17"]
+      },
+      {
+        "name": "Water pump",
+        "category": "Cooling",
+        "typical_interval": "Often with timing belt",
+        "notes": "Prevent leaks/failure",
+        "sources": ["web:6", "web:10"]
+      }
+    ],
+    "transmission_and_driveline": [
+      {
+        "name": "AT/CVT fluid",
+        "category": "Transmission",
+        "typical_interval": "Up to ~100k km (or sooner per OEM)",
+        "notes": "Severe service shortens interval",
+        "sources": ["web:6", "web:20"]
+      },
+      {
+        "name": "MT/axle/differential oils",
+        "category": "Driveline",
+        "typical_interval": "50-100k km (type-dependent)",
+        "notes": "Follow viscosity/spec per unit",
+        "sources": ["web:6", "web:20"]
+      },
+      {
+        "name": "Clutch (manual)",
+        "category": "Transmission",
+        "typical_interval": "By wear; usage-dependent",
+        "notes": "Common, sometimes costly repair",
+        "sources": ["web:7", "web:16"]
+      },
+      {
+        "name": "Wheel alignment",
+        "category": "Chassis",
+        "typical_interval": "After impacts/uneven tire wear",
+        "notes": "Improves tire life and handling",
+        "sources": ["web:10", "web:19"]
+      }
+    ],
+    "service_patterns": [
+      {
+        "name": "30-60-90k services",
+        "category": "Service bundles",
+        "typical_interval": "At ~50k, 100k, 150k km",
+        "notes": "Expanded inspections and scheduled replacements",
+        "sources": ["web:6", "web:20"]
+      },
+      {
+        "name": "Tire rotation",
+        "category": "Tires",
+        "typical_interval": "Every 6-8k km",
+        "notes": "Combine with oil service for convenience",
+        "sources": ["web:12", "web:9"]
+      },
+      {
+        "name": "Routine inspections",
+        "category": "General",
+        "typical_interval": "At every minor service",
+        "notes": "Belts, hoses, suspension, battery tests",
+        "sources": ["web:12", "web:6"]
+      }
+    ],
+    "most_frequent_overall": [
+      "Engine oil and filters",
+      "Brake pads",
+      "Tires",
+      "12V battery",
+      "Wiper blades",
+      "Exterior bulbs"
+    ]
+  }
+  
