@@ -1,0 +1,263 @@
+{
+    "powertrains": {
+        "description": "Engine/motor types with typical layout, power, cylinders, and energy types; notes cover longitudinal/transverse and hub motors.",
+        "types": [
+            {
+                "type": "gasoline_ice",
+                "description": "Spark-ignition internal combustion using gasoline (petrol).",
+                "petrol": {
+                    "typical_layouts": [
+                        "transverse_FWD",
+                        "longitudinal_RWD",
+                        "longitudinal_AWD"
+                    ],
+                    "typical_cylinders_layout": [
+                        {"name": "I3", "examples": "Ford EcoBoost 1.0L, BMW i8, Smart Fortwo"},
+                        {"name": "I4", "examples": "Honda Civic 1.5L, Toyota Camry 2.5L, VW Golf 2.0L"},
+                        {"name": "I6", "examples": "BMW 3.0L I6, Mercedes C300 3.0L, Toyota Supra 3.0L"},
+                        {"name": "V4", "examples": "Porsche 718 Boxster 2.0L, Saab 99 2.0L (historical)"},
+                        {"name": "V6", "examples": "BMW 3.0L, Mercedes C-Class 3.0L, Audi A6 3.0L"},
+                        {"name": "V8", "examples": "BMW M3 4.0L, Mercedes AMG 4.0L, Chevrolet Corvette 6.2L"},
+                        {"name": "V12", "examples": "BMW 760i 6.6L, Mercedes S600 6.0L, Ferrari 812 Superfast 6.5L"},
+                        {"name": "W12", "examples": "Audi A8 6.0L, Bentley Continental GT 6.0L, VW Phaeton 6.0L"}
+                    ],
+                    "power_range_kw_from": 50,
+                    "power_range_kw_to": 500,
+                    "energy": {
+                        "fuel": "gasoline",
+                        "octane": "varies by market"
+                    }
+                },
+                "notes": "Transverse commonly in FWD compacts; longitudinal in RWD/AWD and performance cars."
+            },
+            {
+                "type": "diesel_ice",
+                "description": "Compression-ignition internal combustion using diesel.",
+                "petrol": {
+                    "typical_layouts": [
+                        "transverse_FWD",
+                        "longitudinal_RWD",
+                        "longitudinal_AWD"
+                    ],
+                    "typical_cylinders_layout": [
+                        {"name": "I4", "examples": "VW TDI 2.0L, BMW 320d 2.0L, Mercedes C220d 2.0L"},
+                        {"name": "I5", "examples": "Audi TDI 2.5L (discontinued), Volvo D5 2.4L"},
+                        {"name": "I6", "examples": "BMW 330d 3.0L I6, Mercedes E350d 3.0L I6, Land Rover Defender 3.0L"},
+                        {"name": "V6", "examples": "BMW 330d 3.0L, Mercedes E350d 3.0L, Audi A6 3.0L TDI"},
+                        {"name": "V8", "examples": "BMW 750d 4.4L, Mercedes GLS 450d 4.0L, Audi Q7 4.0L TDI"}
+                    ],
+                    "power_range_kw_from": 50,
+                    "power_range_kw_to": 350,
+                    "energy": {
+                        "fuel": "diesel",
+                        "bio_blends": "B7–B20 where applicable"
+                    }
+                },
+                "notes": "Favored in EU for efficiency and torque; used in SUVs and long-distance cars."
+            },
+            {
+                "type": "mild_hybrid_mhev",
+                "description": "ICE with 12–48V belt-integrated starter-generator for assist and regen.",
+                "petrol": {
+                    "typical_layouts": [
+                        "transverse_FWD",
+                        "longitudinal_RWD",
+                        "longitudinal_AWD"
+                    ],
+                    "typical_cylinders_layout": [
+                        {"name": "I3", "examples": "Ford EcoBoost 1.0L MHEV, Suzuki Swift 1.0L MHEV"},
+                        {"name": "I4", "examples": "Mercedes C200 MHEV 2.0L, BMW 320i MHEV 2.0L"},
+                        {"name": "I6", "examples": "BMW 330i MHEV 3.0L I6, Mercedes C300 MHEV 3.0L I6"},
+                        {"name": "V6", "examples": "Mercedes E350 MHEV 3.0L, BMW 540i MHEV 3.0L"},
+                        {"name": "V8", "examples": "Mercedes S560 MHEV 4.0L, BMW 750i MHEV 4.4L"}
+                    ],
+                    "power_range_kw_from": 50,
+                    "power_range_kw_to": 350,
+                    "energy": {
+                        "fuel": "gasoline_or_diesel"
+                    }
+                },
+                "electrical": {
+                    "power_range_kw_from": 5,
+                    "power_range_kw_to": 15,
+                    "power_range_kw_note": "ICE dependent; electric assist",
+                    "energy": {
+                        "battery": "12–48V Li-ion"
+                    }
+                },
+                "notes": "Does not propel vehicle on electric power alone."
+            },
+            {
+                "type": "full_hybrid_hev",
+                "description": "ICE plus electric motor and small traction battery; limited EV-only operation.",
+                "petrol": {
+                    "typical_layouts": [
+                        "transverse_FWD"
+                    ],
+                    "typical_cylinders_layout": [
+                        {"name": "I3", "examples": "Toyota Prius 1.5L Hybrid, Honda Insight 1.5L Hybrid"},
+                        {"name": "I4", "examples": "Toyota Camry Hybrid 2.5L, Honda Accord Hybrid 2.0L, Ford Fusion Hybrid 2.0L"},
+                        {"name": "I6", "examples": "Lexus LS 500h 3.5L I6, BMW 330e 3.0L I6 Hybrid"},
+                        {"name": "V6", "examples": "Lexus RX 450h 3.5L, Acura MDX Hybrid 3.0L"}
+                    ],
+                    "power_range_kw_from": 50,
+                    "power_range_kw_to": 120,
+                    "energy": {
+                        "fuel": "gasoline_or_diesel"
+                    }
+                },
+                "electrical": {
+                    "typical_layouts": [
+                        "eAWD_with_rear_motor"
+                    ],
+                    "power_range_kw_from": 20,
+                    "power_range_kw_to": 40,
+                    "energy": {
+                        "battery": "0.8–2 kWh Li-ion/NiMH"
+                    }
+                },
+                "notes": "Power-split or series-parallel architectures common."
+            },
+            {
+                "type": "plug_in_hybrid_phev",
+                "description": "Hybrid with external charging and larger battery enabling substantial EV range.",
+                "petrol": {
+                    "typical_layouts": [
+                        "transverse_FWD",
+                        "transverse_AWD",
+                        "longitudinal_AWD"
+                    ],
+                    "typical_cylinders_layout": [
+                        {"name": "I4", "examples": "BMW 330e 2.0L PHEV, Volvo XC60 T8 2.0L PHEV, Mitsubishi Outlander PHEV 2.4L"},
+                        {"name": "I6", "examples": "BMW 530e 3.0L I6 PHEV, Mercedes E350e 3.0L I6 PHEV"},
+                        {"name": "V6", "examples": "Porsche Panamera E-Hybrid 2.9L, BMW 745e 3.0L PHEV, Mercedes S560e 3.0L PHEV"},
+                        {"name": "V8", "examples": "Porsche Cayenne Turbo S E-Hybrid 4.0L, BMW X5 xDrive50e 4.4L PHEV"}
+                    ],
+                    "power_range_kw_from": 80,
+                    "power_range_kw_to": 200,
+                    "energy": {
+                        "fuel": "gasoline_or_diesel"
+                    }
+                },
+                "electrical": {
+                    "power_range_kw_from": 40,
+                    "power_range_kw_to": 50,
+                    "energy": {
+                        "battery": "8–40+ kWh Li-ion",
+                        "charging": "AC + DC fast"
+                    }
+                },
+                "notes": "Can drive significant distances in EV mode; AC charging standard."
+            },
+            {
+                "type": "series_hybrid",
+                "description": "ICE acts as generator; electric motor drives wheels.",
+                "petrol": {
+                    "typical_layouts": [
+                        "transverse_FWD"
+                    ],
+                    "typical_cylinders_layout": [
+                        {"name": "I3", "examples": "BMW i3 REx 0.6L, Fisker Karma 2.0L (discontinued)"},
+                        {"name": "I4", "examples": "Chevrolet Volt 1.5L (discontinued), BMW i3 REx 0.6L"},
+                        {"name": "I6", "examples": "BMW i8 1.5L I6 (generator), Mazda MX-30 R-EV 0.8L I6 (generator)"}
+                    ],
+                    "power_range_kw_from": 20,
+                    "power_range_kw_to": 60,
+                    "energy": {
+                        "fuel": "gasoline_or_diesel"
+                    }
+                },
+                "electrical": {
+                    "typical_layouts": [
+                        "RWD"
+                    ],
+                    "power_range_kw_from": 60,
+                    "power_range_kw_to": 140,
+                    "energy": {
+                        "battery": "small-to-medium Li-ion"
+                    }
+                },
+                "notes": "Engine decoupled from wheels; smooth power delivery."
+            },
+            {
+                "type": "bev",
+                "description": "Battery electric vehicle using one or more electric motors.",
+                "electrical": {
+                    "typical_layouts": [
+                        "single_motor_RWD",
+                        "dual_motor_AWD",
+                        "hub_motors_rare"
+                    ],
+                    "typical_cylinders_layout": [
+                        {"name": "motors", "examples": "Tesla Model 3 (1-2 motors), Tesla Model S (1-3 motors), BMW iX (2 motors), Audi e-tron (2 motors)"}
+                    ],
+                    "power_range_kw_from": 70,
+                    "power_range_kw_to": 500,
+                    "energy": {
+                        "battery": "LFP/NMC etc., 40–120+ kWh",
+                        "charging": "AC + DC fast"
+                    }
+                },
+                "notes": "No cylinders; motors may be axle-mounted; hub motors exist but uncommon."
+            },
+            {
+                "type": "fuel_cell_fcev",
+                "description": "Hydrogen fuel cell generates electricity for motors.",
+                "electrical": {
+                    "typical_layouts": [
+                        "FWD",
+                        "RWD"
+                    ],
+                    "typical_cylinders_layout": [
+                        {"name": "motors", "examples": "Toyota Mirai (1 motor), Honda Clarity Fuel Cell (1 motor), Hyundai Nexo (1 motor)"}
+                    ],
+                    "power_range_kw_from": 100,
+                    "power_range_kw_to": 200,
+                    "energy": {
+                        "fuel": "compressed_hydrogen_350–700_bar",
+                        "battery": "buffer Li-ion"
+                    }
+                },
+                "notes": "Limited infrastructure; water vapor exhaust."
+            },
+            {
+                "type": "range_extender_ev",
+                "description": "BEV with small ICE generator solely to extend range.",
+                "petrol": {
+                    "typical_layouts": [
+                        "transverse_FWD"
+                    ],
+                    "typical_cylinders_layout": [
+                        {"name": "I2", "examples": "BMW i3 REx 0.6L (generator), Fisker Karma 2.0L (generator)"},
+                        {"name": "I3", "examples": "BMW i3 REx 0.6L (generator), Mazda MX-30 R-EV 0.8L (generator)"},
+                        {"name": "I4", "examples": "Chevrolet Volt 1.5L (generator), BMW i3 REx 0.6L (generator)"},
+                        {"name": "I6", "examples": "BMW i8 1.5L I6 (generator), Mazda MX-30 R-EV 0.8L I6 (generator)"}
+                    ],
+                    "power_range_kw_from": 20,
+                    "power_range_kw_to": 60,
+                    "power_range_kw_note": "generator only",
+                    "energy": {
+                        "fuel": "gasoline"
+                    }
+                },
+                "electrical": {
+                    "typical_layouts": [
+                        "RWD",
+                        "FWD"
+                    ],
+                    "power_range_kw_from": 80,
+                    "power_range_kw_to": 200,
+                    "energy": {
+                        "battery": "medium"
+                    }
+                },
+                "notes": "Wheels driven only by electric motor."
+            }
+        ],
+        "layouts_reference": {
+            "transverse_engine": "Engine crankshaft perpendicular to travel; common in FWD; compact packaging.",
+            "longitudinal_engine": "Engine crankshaft parallel to travel; common in RWD/AWD; allows larger engines.",
+            "hub_motor": "Electric motors integrated in wheels; rare in mass-market passenger cars."
+        }
+    }
+}
