@@ -46,12 +46,22 @@ const Powertrains = () => {
 
             <div className="spec-item">
               <strong>Energy:</strong>
-              <p>Fuel: {powertrain.petrol.energy.fuel}</p>
+              <p>Fuel: {Array.isArray(powertrain.petrol.energy.fuel) ? powertrain.petrol.energy.fuel.join(', ') : powertrain.petrol.energy.fuel}</p>
               {powertrain.petrol.energy.octane && (
-                <p>Octane: {powertrain.petrol.energy.octane}</p>
+                <div>
+                  <p><strong>Octane Ratings:</strong></p>
+                  {typeof powertrain.petrol.energy.octane === 'object' ? (
+                    <div>
+                      <p><strong>US (AKI):</strong> {powertrain.petrol.energy.octane.US.join(', ')}</p>
+                      <p><strong>EU (RON):</strong> {powertrain.petrol.energy.octane.EU.join(', ')}</p>
+                    </div>
+                  ) : (
+                    <p>{powertrain.petrol.energy.octane}</p>
+                  )}
+                </div>
               )}
               {powertrain.petrol.energy.bio_blends && (
-                <p>Bio Blends: {powertrain.petrol.energy.bio_blends}</p>
+                <p>Bio Blends: {Array.isArray(powertrain.petrol.energy.bio_blends) ? powertrain.petrol.energy.bio_blends.join(', ') : powertrain.petrol.energy.bio_blends}</p>
               )}
             </div>
           </div>
@@ -85,12 +95,12 @@ const Powertrains = () => {
 
             <div className="spec-item">
               <strong>Energy Storage:</strong>
-              <p>Battery: {powertrain.electrical.energy.battery}</p>
+              <p>Battery: {Array.isArray(powertrain.electrical.energy.battery) ? powertrain.electrical.energy.battery.join(', ') : powertrain.electrical.energy.battery}</p>
               {powertrain.electrical.energy.charging && (
-                <p>Charging: {powertrain.electrical.energy.charging}</p>
+                <p>Charging: {Array.isArray(powertrain.electrical.energy.charging) ? powertrain.electrical.energy.charging.join(', ') : powertrain.electrical.energy.charging}</p>
               )}
               {powertrain.electrical.energy.fuel && (
-                <p>Fuel: {powertrain.electrical.energy.fuel}</p>
+                <p>Fuel: {Array.isArray(powertrain.electrical.energy.fuel) ? powertrain.electrical.energy.fuel.join(', ') : powertrain.electrical.energy.fuel}</p>
               )}
             </div>
           </div>

@@ -25,8 +25,11 @@
                     "power_range_kw_from": 50,
                     "power_range_kw_to": 500,
                     "energy": {
-                        "fuel": "gasoline",
-                        "octane": "varies by market"
+                        "fuel": ["Gasoline"],
+                        "octane": {
+                            "US": ["Regular (87 AKI)", "Mid-grade (89 AKI)", "Premium (91-93 AKI)"],
+                            "EU": ["95 RON", "98 RON", "100+ RON (super unleaded)"]
+                        }
                     }
                 },
                 "notes": "Transverse commonly in FWD compacts; longitudinal in RWD/AWD and performance cars."
@@ -51,8 +54,8 @@
                     "power_range_kw_from": 50,
                     "power_range_kw_to": 350,
                     "energy": {
-                        "fuel": "diesel",
-                        "bio_blends": "B7–B20 where applicable"
+                        "fuel": ["Diesel"],
+                        "bio_blends": ["B7–B20 where applicable"]
                     }
                 },
                 "notes": "Favored in EU for efficiency and torque; used in SUVs and long-distance cars."
@@ -77,7 +80,12 @@
                     "power_range_kw_from": 50,
                     "power_range_kw_to": 350,
                     "energy": {
-                        "fuel": "gasoline_or_diesel"
+                        "fuel": ["Gasoline", "Diesel"],
+                        "octane": {
+                            "US": ["Regular (87 AKI)", "Mid-grade (89 AKI)", "Premium (91-93 AKI)"],
+                            "EU": ["95 RON", "98 RON", "100+ RON (super unleaded)"]
+                        },
+                        "bio_blends": ["B7–B20 where applicable"]
                     }
                 },
                 "electrical": {
@@ -85,7 +93,7 @@
                     "power_range_kw_to": 15,
                     "power_range_kw_note": "ICE dependent; electric assist",
                     "energy": {
-                        "battery": "12–48V Li-ion"
+                        "battery": ["12–48V Li-ion"]
                     }
                 },
                 "notes": "Does not propel vehicle on electric power alone."
@@ -107,7 +115,12 @@
                     "power_range_kw_from": 50,
                     "power_range_kw_to": 120,
                     "energy": {
-                        "fuel": "gasoline_or_diesel"
+                        "fuel": ["Gasoline", "Diesel"],
+                        "octane": {
+                            "US": ["Regular (87 AKI)", "Mid-grade (89 AKI)", "Premium (91-93 AKI)"],
+                            "EU": ["95 RON", "98 RON", "100+ RON (super unleaded)"]
+                        },
+                        "bio_blends": ["B7–B20 where applicable"]
                     }
                 },
                 "electrical": {
@@ -117,7 +130,7 @@
                     "power_range_kw_from": 20,
                     "power_range_kw_to": 40,
                     "energy": {
-                        "battery": "0.8–2 kWh Li-ion/NiMH"
+                        "battery": ["0.8–2 kWh Li-ion/NiMH"]
                     }
                 },
                 "notes": "Power-split or series-parallel architectures common."
@@ -141,15 +154,20 @@
                     "power_range_kw_from": 80,
                     "power_range_kw_to": 200,
                     "energy": {
-                        "fuel": "gasoline_or_diesel"
+                        "fuel": ["Gasoline", "Diesel"],
+                        "octane": {
+                            "US": ["Regular (87 AKI)", "Mid-grade (89 AKI)", "Premium (91-93 AKI)"],
+                            "EU": ["95 RON", "98 RON", "100+ RON (super unleaded)"]
+                        },
+                        "bio_blends": ["B7–B20 where applicable"]
                     }
                 },
                 "electrical": {
                     "power_range_kw_from": 40,
                     "power_range_kw_to": 50,
                     "energy": {
-                        "battery": "8–40+ kWh Li-ion",
-                        "charging": "AC + DC fast"
+                        "battery": ["8–40+ kWh Li-ion"],
+                        "charging": ["AC + DC fast"]
                     }
                 },
                 "notes": "Can drive significant distances in EV mode; AC charging standard."
@@ -170,7 +188,12 @@
                     "power_range_kw_from": 20,
                     "power_range_kw_to": 60,
                     "energy": {
-                        "fuel": "gasoline_or_diesel"
+                        "fuel": ["Gasoline", "Diesel"],
+                        "octane": {
+                            "US": ["Regular (87 AKI)", "Mid-grade (89 AKI)", "Premium (91-93 AKI)"],
+                            "EU": ["95 RON", "98 RON", "100+ RON (super unleaded)"]
+                        },
+                        "bio_blends": ["B7–B20 where applicable"]
                     }
                 },
                 "electrical": {
@@ -180,7 +203,7 @@
                     "power_range_kw_from": 60,
                     "power_range_kw_to": 140,
                     "energy": {
-                        "battery": "small-to-medium Li-ion"
+                        "battery": ["small-to-medium Li-ion"]
                     }
                 },
                 "notes": "Engine decoupled from wheels; smooth power delivery."
@@ -201,8 +224,8 @@
                     "power_range_kw_from": 70,
                     "power_range_kw_to": 500,
                     "energy": {
-                        "battery": "LFP/NMC etc., 40–120+ kWh",
-                        "charging": "AC + DC fast"
+                        "battery": ["LFP/NMC etc., 40–120+ kWh"],
+                        "charging": ["AC + DC fast"]
                     }
                 },
                 "notes": "No cylinders; motors may be axle-mounted; hub motors exist but uncommon."
@@ -222,8 +245,8 @@
                     "power_range_kw_from": 100,
                     "power_range_kw_to": 200,
                     "energy": {
-                        "fuel": "compressed_hydrogen_350–700_bar",
-                        "battery": "buffer Li-ion"
+                        "fuel": ["compressed_hydrogen_350–700_bar"],
+                        "battery": ["buffer Li-ion"]
                     }
                 },
                 "notes": "Limited infrastructure; water vapor exhaust."
@@ -246,7 +269,11 @@
                     "power_range_kw_to": 60,
                     "power_range_kw_note": "generator only",
                     "energy": {
-                        "fuel": "gasoline"
+                        "fuel": ["Gasoline"],
+                        "octane": {
+                            "US": ["Regular (87 AKI)", "Mid-grade (89 AKI)", "Premium (91-93 AKI)"],
+                            "EU": ["95 RON", "98 RON", "100+ RON (super unleaded)"]
+                        }
                     }
                 },
                 "electrical": {
@@ -257,7 +284,7 @@
                     "power_range_kw_from": 80,
                     "power_range_kw_to": 200,
                     "energy": {
-                        "battery": "medium"
+                        "battery": ["medium"]
                     }
                 },
                 "notes": "Wheels driven only by electric motor."
