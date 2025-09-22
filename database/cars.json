@@ -16,11 +16,11 @@
                         "cylinders": "I4",
                         "fuel": "gasoline"
                     },
-                    "battery": "NiMH_or_Li-ion_~1kWh"
+                    "battery": "0.8–2 kWh Li-ion/NiMH"
                 },
                 "transmission": {
-                    "id": "eCVT_power_split",
-                    "name": "eCVT Power Split"
+                    "id": "cvt",
+                    "name": "CVT"
                 },
                 "suspension_and_frame": {
                     "front": "macpherson_strut",
@@ -45,9 +45,9 @@
                 "powertrain": {
                     "id": "gasoline_ice",
                     "name": "Gasoline ICE",
-                    "layout": "rear_engine_longitudinal_RWD",
+                    "layout": "longitudinal_RWD",
                     "engine": {
-                        "cylinders": "flat_6",
+                        "cylinders": "I6",
                         "fuel": "gasoline",
                         "aspiration": "twin_turbo"
                     }
@@ -57,7 +57,7 @@
                     "name": "DCT Dual Clutch"
                 },
                 "suspension_and_frame": {
-                    "front": "macpherson_strut_variant",
+                    "front": "macpherson_strut",
                     "rear": "multilink_rear",
                     "frame": "unibody"
                 },
@@ -145,7 +145,7 @@
                 "powertrain": {
                     "id": "diesel_ice",
                     "name": "Diesel ICE",
-                    "layout": "transverse_AWD",
+                    "layout": "transverse_FWD",
                     "engine": {
                         "cylinders": "I5",
                         "fuel": "diesel",
@@ -179,7 +179,7 @@
                 "powertrain": {
                     "id": "gasoline_ice",
                     "name": "Gasoline ICE",
-                    "layout": "transverse_AWD",
+                    "layout": "transverse_FWD",
                     "engine": {
                         "cylinders": "I4",
                         "fuel": "gasoline",
