@@ -8,9 +8,9 @@
                 "description": "Spark-ignition internal combustion using gasoline (petrol).",
                 "petrol": {
                     "typical_layouts": [
-                        "transverse_FWD",
-                        "longitudinal_RWD",
-                        "longitudinal_AWD"
+                        {"id": "transverse_FWD", "name": "Transverse FWD", "description": "Engine mounted transversely (perpendicular to travel direction) with front-wheel drive; common in compact and economy cars for space efficiency."},
+                        {"id": "longitudinal_RWD", "name": "Longitudinal RWD", "description": "Engine mounted longitudinally (parallel to travel direction) with rear-wheel drive; typical in performance and luxury vehicles for better weight distribution."},
+                        {"id": "longitudinal_AWD", "name": "Longitudinal AWD", "description": "Engine mounted longitudinally with all-wheel drive; provides traction and performance benefits, common in SUVs and high-performance cars."}
                     ],
                     "typical_cylinders_layout": [
                         {"name": "I3", "examples": "Ford EcoBoost 1.0L, BMW i8, Smart Fortwo"},
@@ -37,9 +37,9 @@
                 "description": "Compression-ignition internal combustion using diesel.",
                 "petrol": {
                     "typical_layouts": [
-                        "transverse_FWD",
-                        "longitudinal_RWD",
-                        "longitudinal_AWD"
+                        {"id": "transverse_FWD", "name": "Transverse FWD", "description": "Engine mounted transversely (perpendicular to travel direction) with front-wheel drive; common in compact and economy cars for space efficiency."},
+                        {"id": "longitudinal_RWD", "name": "Longitudinal RWD", "description": "Engine mounted longitudinally (parallel to travel direction) with rear-wheel drive; typical in performance and luxury vehicles for better weight distribution."},
+                        {"id": "longitudinal_AWD", "name": "Longitudinal AWD", "description": "Engine mounted longitudinally with all-wheel drive; provides traction and performance benefits, common in SUVs and high-performance cars."}
                     ],
                     "typical_cylinders_layout": [
                         {"name": "I4", "examples": "VW TDI 2.0L, BMW 320d 2.0L, Mercedes C220d 2.0L"},
@@ -63,9 +63,9 @@
                 "description": "ICE with 12–48V belt-integrated starter-generator for assist and regen.",
                 "petrol": {
                     "typical_layouts": [
-                        "transverse_FWD",
-                        "longitudinal_RWD",
-                        "longitudinal_AWD"
+                        {"id": "transverse_FWD", "name": "Transverse FWD", "description": "Engine mounted transversely (perpendicular to travel direction) with front-wheel drive; common in compact and economy cars for space efficiency."},
+                        {"id": "longitudinal_RWD", "name": "Longitudinal RWD", "description": "Engine mounted longitudinally (parallel to travel direction) with rear-wheel drive; typical in performance and luxury vehicles for better weight distribution."},
+                        {"id": "longitudinal_AWD", "name": "Longitudinal AWD", "description": "Engine mounted longitudinally with all-wheel drive; provides traction and performance benefits, common in SUVs and high-performance cars."}
                     ],
                     "typical_cylinders_layout": [
                         {"name": "I3", "examples": "Ford EcoBoost 1.0L MHEV, Suzuki Swift 1.0L MHEV"},
@@ -96,7 +96,7 @@
                 "description": "ICE plus electric motor and small traction battery; limited EV-only operation.",
                 "petrol": {
                     "typical_layouts": [
-                        "transverse_FWD"
+                        {"id": "transverse_FWD", "name": "Transverse FWD", "description": "Engine mounted transversely (perpendicular to travel direction) with front-wheel drive; common in compact and economy cars for space efficiency."}
                     ],
                     "typical_cylinders_layout": [
                         {"name": "I3", "examples": "Toyota Prius 1.5L Hybrid, Honda Insight 1.5L Hybrid"},
@@ -112,7 +112,7 @@
                 },
                 "electrical": {
                     "typical_layouts": [
-                        "eAWD_with_rear_motor"
+                        {"id": "eAWD_with_rear_motor", "name": "Electric AWD with Rear Motor", "description": "All-wheel drive system using electric motor at the rear axle combined with front-wheel drive; provides enhanced traction and performance."}
                     ],
                     "power_range_kw_from": 20,
                     "power_range_kw_to": 40,
@@ -128,9 +128,9 @@
                 "description": "Hybrid with external charging and larger battery enabling substantial EV range.",
                 "petrol": {
                     "typical_layouts": [
-                        "transverse_FWD",
-                        "transverse_AWD",
-                        "longitudinal_AWD"
+                        {"id": "transverse_FWD", "name": "Transverse FWD", "description": "Engine mounted transversely (perpendicular to travel direction) with front-wheel drive; common in compact and economy cars for space efficiency."},
+                        {"id": "transverse_AWD", "name": "Transverse AWD", "description": "Engine mounted transversely with all-wheel drive; combines space efficiency with enhanced traction, common in compact SUVs and crossovers."},
+                        {"id": "longitudinal_AWD", "name": "Longitudinal AWD", "description": "Engine mounted longitudinally with all-wheel drive; provides traction and performance benefits, common in SUVs and high-performance cars."}
                     ],
                     "typical_cylinders_layout": [
                         {"name": "I4", "examples": "BMW 330e 2.0L PHEV, Volvo XC60 T8 2.0L PHEV, Mitsubishi Outlander PHEV 2.4L"},
@@ -160,7 +160,7 @@
                 "description": "ICE acts as generator; electric motor drives wheels.",
                 "petrol": {
                     "typical_layouts": [
-                        "transverse_FWD"
+                        {"id": "transverse_FWD", "name": "Transverse FWD", "description": "Engine mounted transversely (perpendicular to travel direction) with front-wheel drive; common in compact and economy cars for space efficiency."}
                     ],
                     "typical_cylinders_layout": [
                         {"name": "I3", "examples": "BMW i3 REx 0.6L, Fisker Karma 2.0L (discontinued)"},
@@ -175,7 +175,7 @@
                 },
                 "electrical": {
                     "typical_layouts": [
-                        "RWD"
+                        {"id": "RWD", "name": "Rear-Wheel Drive", "description": "Electric motor drives the rear wheels; provides good weight distribution and handling characteristics for electric vehicles."}
                     ],
                     "power_range_kw_from": 60,
                     "power_range_kw_to": 140,
@@ -191,9 +191,9 @@
                 "description": "Battery electric vehicle using one or more electric motors.",
                 "electrical": {
                     "typical_layouts": [
-                        "single_motor_RWD",
-                        "dual_motor_AWD",
-                        "hub_motors_rare"
+                        {"id": "single_motor_RWD", "name": "Single Motor RWD", "description": "Single electric motor driving the rear wheels; common in entry-level and mid-range electric vehicles for simplicity and efficiency."},
+                        {"id": "dual_motor_AWD", "name": "Dual Motor AWD", "description": "Two electric motors (front and rear) providing all-wheel drive; offers enhanced traction, performance, and stability control."},
+                        {"id": "hub_motors_rare", "name": "Hub Motors (Rare)", "description": "Electric motors integrated directly into the wheel hubs; very rare in mass-market vehicles due to complexity and unsprung weight concerns."}
                     ],
                     "typical_cylinders_layout": [
                         {"name": "motors", "examples": "Tesla Model 3 (1-2 motors), Tesla Model S (1-3 motors), BMW iX (2 motors), Audi e-tron (2 motors)"}
@@ -213,8 +213,8 @@
                 "description": "Hydrogen fuel cell generates electricity for motors.",
                 "electrical": {
                     "typical_layouts": [
-                        "FWD",
-                        "RWD"
+                        {"id": "FWD", "name": "Front-Wheel Drive", "description": "Electric motor drives the front wheels; common in fuel cell vehicles for packaging efficiency and traction."},
+                        {"id": "RWD", "name": "Rear-Wheel Drive", "description": "Electric motor drives the rear wheels; provides good weight distribution and handling characteristics for fuel cell vehicles."}
                     ],
                     "typical_cylinders_layout": [
                         {"name": "motors", "examples": "Toyota Mirai (1 motor), Honda Clarity Fuel Cell (1 motor), Hyundai Nexo (1 motor)"}
@@ -234,7 +234,7 @@
                 "description": "BEV with small ICE generator solely to extend range.",
                 "petrol": {
                     "typical_layouts": [
-                        "transverse_FWD"
+                        {"id": "transverse_FWD", "name": "Transverse FWD", "description": "Engine mounted transversely (perpendicular to travel direction) with front-wheel drive; common in compact and economy cars for space efficiency."}
                     ],
                     "typical_cylinders_layout": [
                         {"name": "I2", "examples": "BMW i3 REx 0.6L (generator), Fisker Karma 2.0L (generator)"},
@@ -251,8 +251,8 @@
                 },
                 "electrical": {
                     "typical_layouts": [
-                        "RWD",
-                        "FWD"
+                        {"id": "RWD", "name": "Rear-Wheel Drive", "description": "Electric motor drives the rear wheels; provides good weight distribution and handling characteristics for electric vehicles."},
+                        {"id": "FWD", "name": "Front-Wheel Drive", "description": "Electric motor drives the front wheels; common in electric vehicles for packaging efficiency and traction."}
                     ],
                     "power_range_kw_from": 80,
                     "power_range_kw_to": 200,
@@ -264,9 +264,16 @@
             }
         ],
         "layouts_reference": {
-            "transverse_engine": "Engine crankshaft perpendicular to travel; common in FWD; compact packaging.",
-            "longitudinal_engine": "Engine crankshaft parallel to travel; common in RWD/AWD; allows larger engines.",
-            "hub_motor": "Electric motors integrated in wheels; rare in mass-market passenger cars."
+            "transverse_FWD": "Engine mounted transversely (perpendicular to travel direction) with front-wheel drive; common in compact and economy cars for space efficiency.",
+            "longitudinal_RWD": "Engine mounted longitudinally (parallel to travel direction) with rear-wheel drive; typical in performance and luxury vehicles for better weight distribution.",
+            "longitudinal_AWD": "Engine mounted longitudinally with all-wheel drive; provides traction and performance benefits, common in SUVs and high-performance cars.",
+            "transverse_AWD": "Engine mounted transversely with all-wheel drive; combines space efficiency with enhanced traction, common in compact SUVs and crossovers.",
+            "eAWD_with_rear_motor": "All-wheel drive system using electric motor at the rear axle combined with front-wheel drive; provides enhanced traction and performance.",
+            "single_motor_RWD": "Single electric motor driving the rear wheels; common in entry-level and mid-range electric vehicles for simplicity and efficiency.",
+            "dual_motor_AWD": "Two electric motors (front and rear) providing all-wheel drive; offers enhanced traction, performance, and stability control.",
+            "hub_motors_rare": "Electric motors integrated directly into the wheel hubs; very rare in mass-market vehicles due to complexity and unsprung weight concerns.",
+            "FWD": "Electric motor drives the front wheels; common in electric and fuel cell vehicles for packaging efficiency and traction.",
+            "RWD": "Electric motor drives the rear wheels; provides good weight distribution and handling characteristics for electric and fuel cell vehicles."
         }
     }
 }

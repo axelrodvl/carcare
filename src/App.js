@@ -47,7 +47,7 @@ function App() {
 
         <footer className="footer">
           <div className="container">
-            <p>&copy; 2024 Car Encyclopedia. Built with React.</p>
+            <p>&copy; 2024 Car Encyclopedia. Vadim Axelrod & Cursor.</p>
           </div>
         </footer>
       </div>

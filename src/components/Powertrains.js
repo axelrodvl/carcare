@@ -21,7 +21,9 @@ const Powertrains = () => {
               <strong>Typical Layouts:</strong>
               <ul>
                 {powertrain.petrol.typical_layouts && powertrain.petrol.typical_layouts.map((layout, index) => (
-                  <li key={index}>{layout}</li>
+                  <li key={index}>
+                    <strong>{layout.name}:</strong> {layout.description}
+                  </li>
                 ))}
               </ul>
             </div>
@@ -65,7 +67,9 @@ const Powertrains = () => {
                 <strong>Typical Layouts:</strong>
                 <ul>
                   {powertrain.electrical.typical_layouts.map((layout, index) => (
-                    <li key={index}>{layout}</li>
+                    <li key={index}>
+                      <strong>{layout.name}:</strong> {layout.description}
+                    </li>
                   ))}
                 </ul>
               </div>
